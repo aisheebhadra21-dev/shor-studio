@@ -53,7 +53,7 @@ function KolkataClock() {
 
 function RadioHeader({ currentIndex }: { currentIndex: number }) {
   return (
-    <div className="mb-8 flex items-start justify-between gap-4 px-2 sm:items-end sm:gap-0">
+    <div className="mb-8 flex items-start justify-between gap-4 px-2">
       <div>
         <div className="flex items-center gap-2">
           <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-indigo-300 shadow-[0_0_12px_rgba(165,180,252,.9)]" />
@@ -68,12 +68,24 @@ function RadioHeader({ currentIndex }: { currentIndex: number }) {
         </p>
       </div>
 
-      <span className="shrink-0 whitespace-nowrap pt-1 text-[8px] uppercase tracking-[0.12em] text-white/40 sm:pt-0 sm:text-[9px] sm:tracking-[0.16em]">
-        {String(currentIndex + 1).padStart(2, "0")} / 17
-      </span>
+      <div className="flex flex-col items-end gap-2">
+        <a
+          href="https://open.spotify.com/playlist/2TXfUUl8lRIbF0S9qSoeOZ"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full border border-white/15 bg-black/25 px-3 py-1.5 text-[7px] font-medium uppercase tracking-[0.18em] text-white/55 backdrop-blur-md transition hover:bg-white/10 hover:text-white sm:px-3.5 sm:py-2 sm:text-[8px]"
+        >
+          Open full playlist ↗
+        </a>
+
+        <span className="whitespace-nowrap text-[8px] uppercase tracking-[0.12em] text-white/40 sm:text-[9px] sm:tracking-[0.16em]">
+          {String(currentIndex + 1).padStart(2, "0")} / 17
+        </span>
+      </div>
     </div>
   );
 }
+
 export function SpotifyPlayer() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentTrack = TRACKS[currentIndex];
@@ -90,9 +102,11 @@ export function SpotifyPlayer() {
 
   return (
     <section className="safe-bottom fixed z-30 left-1/2 w-[calc(100%-2rem)] max-w-2xl -translate-x-1/2 sm:translate-y-0">
-      <RadioHeader currentIndex={currentIndex} />
+      <div className="translate-y-6">
+  <RadioHeader currentIndex={currentIndex} />
+</div>
 
-      <div className="glass overflow-hidden rounded-[26px] p-1 sm:rounded-[28px]">
+<div className="glass overflow-hidden rounded-[26px] p-1 sm:rounded-[28px]">
         <div className="relative overflow-hidden rounded-[20px] border border-white/10 bg-black/20">
           <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-px bg-gradient-to-r from-transparent via-white/35 to-transparent" />
 
@@ -137,6 +151,7 @@ export function SpotifyPlayer() {
             Next →
           </button>
         </div>
+
       </div>
     </section>
   );
