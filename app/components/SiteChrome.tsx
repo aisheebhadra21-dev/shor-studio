@@ -6,12 +6,12 @@ export function SiteChrome() {
     <>
       <KolkataClock />
 
-      <div className="safe-top fixed left-1/2 z-40 -translate-x-1/2 rounded-full border border-white/10 bg-black/20 px-3 py-1.5 text-[9px] uppercase tracking-[0.18em] text-white/70 backdrop-blur-md">
+      <div className="safe-top fixed left-1/2 z-40 -translate-x-1/2 rounded-full border border-white/10 bg-black/20 px-2.5 py-1.5 text-[8px] uppercase tracking-[0.14em] text-white/70 backdrop-blur-md">
         <span className="mr-1.5 inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-[#ef9b37]" />
         listening now
       </div>
 
-      <div className="safe-top safe-right fixed z-40 flex items-center gap-2">
+      <div className="safe-top safe-right fixed z-40 flex items-center gap-1.5 translate-x-1 sm:gap-2 sm:translate-x-0">
         <a
           href="https://open.spotify.com/playlist/2TXfUUl8lRIbF0S9qSoeOZ"
           target="_blank"
