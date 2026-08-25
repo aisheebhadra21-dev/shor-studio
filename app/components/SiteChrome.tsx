@@ -3,9 +3,9 @@ import Link from "next/link";
 import { KolkataClock } from "./Player";
 
 export function SiteChrome({
-  room = false,
+  room,
 }: {
-  room?: boolean;
+  room?: "radio" | "naacho" | "iconic";
 }) {
   return (
     <>
@@ -41,7 +41,7 @@ export function SiteChrome({
 
         <a
           href="#about"
-          className="rounded-full border border-white/10 bg-black/20 px-3 py-2 text-[9px] uppercase tracking-[0.15em] text-white/75 backdrop-blur-md transition hover:bg-white/15 hover:text-white"
+          className="rounded-full border border-white/10 bg-black/20 px-3 py-2 text-[9px] uppercase tracking-[0.15em] text-white/75 backdrop-blur-md transition hover:bg-white/10 hover:text-white"
         >
           About
         </a>

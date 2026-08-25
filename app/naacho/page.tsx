@@ -19,7 +19,7 @@ export default function NaachoPage() {
         className="grain fixed inset-0 -z-10 opacity-30"
       />
 
-      <SiteChrome naacho />
+      <SiteChrome room="naacho" />
 
       <div className="safe-top safe-left fixed z-50 flex items-center gap-4">
         <Link
