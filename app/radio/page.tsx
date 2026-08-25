@@ -8,7 +8,7 @@ export default function RadioPage() {
       {/* Shor Radio background */}
       <div
         aria-hidden="true"
-        className="hero-bg fixed inset-0 -z-20"
+        className="hero-bg radio-bg fixed inset-0 -z-20"
       />
 
       {/* Dark overlay */}
