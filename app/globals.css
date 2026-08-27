@@ -40,7 +40,8 @@ button {
 
 .hero-bg {
   background-size: cover;
-  background-position: center;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
 .home-bg,
@@ -52,14 +53,26 @@ button {
   background-image: url("/bg/naacho-wide.png");
 }
 
-@media (orientation: portrait) {
-  .home-bg,
+@media (max-width: 768px) {
+  .home-bg {
+    background-image: url("/bg/scene-tall.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
   .radio-bg {
     background-image: url("/bg/scene-tall.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
   }
 
   .naacho-bg {
     background-image: url("/bg/naacho-tall.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
   }
 }
 
@@ -77,6 +90,19 @@ button {
     background-image: image-set(
       url("/bg/iconic-tall.png") 1x
     );
+  }
+}
+
+.soft-bg {
+  background-image: url("/bg/soft-wide.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .soft-bg {
+    background-image: url("/bg/soft-tall.png");
   }
 }
 

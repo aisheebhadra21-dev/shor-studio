@@ -401,12 +401,182 @@ const ICONIC_TRACKS: Track[] = [
 ];
 
 /* =========================
+   ISHQ VISHQ
+   ========================= */
+
+const SOFT_TRACKS: Track[] = [
+  {
+    id: "53JA46jA1QroK2kQlyFlkM",
+    title: "In Lamhon Ke Daaman Mein",
+    artist: "Various Artists",
+  },
+  {
+    id: "1HIrOjfpGrONXgylYv9UTk",
+    title: "O Rey Chhori",
+    artist: "Various Artists",
+  },
+  {
+    id: "2C6l8EGcbfcLXu0mWfAadB",
+    title: "Chup Chup Ke",
+    artist: "Various Artists",
+  },
+  {
+    id: "4rpefSTp39DtcMJMuZgsGq",
+    title: "Haila Haila",
+    artist: "Various Artists",
+  },
+  {
+    id: "6K0Ea7pq2trf6SwsfEKkOp",
+    title: "Aye Udi Udi",
+    artist: "Various Artists",
+  },
+  {
+    id: "4uLG79ROWYEXx1kJvDVbWI",
+    title: "Tere Rang",
+    artist: "Various Artists",
+  },
+  {
+    id: "24yd8olUggbkvROgA2irRx",
+    title: "Laal Ishq",
+    artist: "Arijit Singh",
+  },
+  {
+    id: "3igjvls6LMb3TncpfSxVda",
+    title: "Jab Saiyaan",
+    artist: "Various Artists",
+  },
+  {
+    id: "2tqIKAq7jGWdt7u6Gb8tRF",
+    title: "Jogi",
+    artist: "Various Artists",
+  },
+  {
+    id: "2RktkeigsgvhuRNQl0ioGS",
+    title: "Bhaage Re Mann",
+    artist: "Various Artists",
+  },
+  {
+    id: "3Bq7CnWgfvplEzGSVXUvOe",
+    title: "Ay Hairathe",
+    artist: "A.R. Rahman · Hariharan · Alka Yagnik",
+  },
+  {
+    id: "4dPeCbg2Op44s9kwyMS3ZT",
+    title: "Sadka",
+    artist: "Various Artists",
+  },
+  {
+    id: "6AKWp18rxG3DZTxp6A2E2T",
+    title: "Aao Naa",
+    artist: "Various Artists",
+  },
+  {
+    id: "5DyYcwMw0f6z3FefXNLOHv",
+    title: "Ishq Hua",
+    artist: "Various Artists",
+  },
+  {
+    id: "3vjkllvtOIKpVvXSWsu1ta",
+    title: "Tu Hai",
+    artist: "Various Artists",
+  },
+  {
+    id: "28syjZyasVJ4J4oxBDOF1b",
+    title: "Bumbro",
+    artist: "Various Artists",
+  },
+  {
+    id: "6512hyAQxOng8v4R71IV47",
+    title: "Hairat",
+    artist: "Various Artists",
+  },
+  {
+    id: "2UKK9UEbKlykbmLVP1zWIQ",
+    title: "Haule Haule",
+    artist: "Various Artists",
+  },
+  {
+    id: "56C574oTBq65dbs4PE284S",
+    title: "Jiya Dhadak Dhadak",
+    artist: "Rahat Fateh Ali Khan",
+  },
+  {
+    id: "2saVO8vB4BX8kCHaZCuIIF",
+    title: "Kabhi Neem Neem",
+    artist: "Various Artists",
+  },
+  {
+    id: "5WncH5iZ5GFlnXm7jKEXVP",
+    title: "Labon Ko",
+    artist: "Various Artists",
+  },
+  {
+    id: "6u1DxxgF1evEXDD4U95L6V",
+    title: "Toota Jo Kabhi Tara",
+    artist: "Various Artists",
+  },
+  {
+    id: "0qUkYhvVzNjqjZVmpXRUwv",
+    title: "Je Kawta Din",
+    artist: "Various Artists",
+  },
+  {
+    id: "70ZpEKSZ8dwZYhzJR6Ckgj",
+    title: "Chawl Rastaye",
+    artist: "Various Artists",
+  },
+  {
+    id: "5JCDVLwteSXuwVqjCa7SwH",
+    title: "O Rangrez",
+    artist: "Various Artists",
+  },
+  {
+    id: "1lGomk0tsbt7orWGK8XoqA",
+    title: "Bairi Piya",
+    artist: "Various Artists",
+  },
+  {
+    id: "1yWRvboe226hrrOppBXw4v",
+    title: "Mohe Rang Do",
+    artist: "Various Artists",
+  },
+  {
+    id: "0Qa9pTZLUC95wJCHGYMIg4",
+    title: "Sajdaa",
+    artist: "Various Artists",
+  },
+  {
+    id: "3Kl8p2PxVf8eAayLwTxOIm",
+    title: "Dil Ibaadat",
+    artist: "Various Artists",
+  },
+  {
+    id: "65wdzLeZLnsJf0Z1CQrAKQ",
+    title: "Maafi",
+    artist: "Various Artists",
+  },
+  {
+    id: "1udm3l9b7ihq00RtHAFkBx",
+    title: "Piya Tora Kaisa Abhiman",
+    artist: "Various Artists",
+  },
+  {
+    id: "1OKzFUAlwKKXImxgNDacbf",
+    title: "Rukhi Sukhi Roti",
+    artist: "Various Artists",
+  },
+  {
+    id: "7xvenkAHls5xTNUKDkD8Jm",
+    title: "In Aankhon Mein Tum",
+    artist: "Various Artists",
+  },
+];
+
+/* =========================
    TYPES
    ========================= */
 
-type PlayerProps = {
-  room?: "radio" | "naacho" | "iconic";
-};
+type PlayerProps = { room?: "radio" | "naacho" | "iconic" | "soft"; };
 
 /* =========================
    KOLKATA CLOCK
@@ -498,27 +668,36 @@ function RadioHeader({
 
 export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
   const isNaacho = room === "naacho";
-  const isIconic = room === "iconic";
+const isIconic = room === "iconic";
+const isSoft = room === "soft";
 
-  const tracks = isIconic
+const tracks = isSoft
+  ? SOFT_TRACKS
+  : isIconic
     ? ICONIC_TRACKS
     : isNaacho
       ? NAACHO_TRACKS
       : SHOR_TRACKS;
 
-  const title = isIconic
+  const title = isSoft
+  ? "इश्क़ VISHQ"
+  : isIconic
     ? "आइCONIC"
     : isNaacho
       ? "Naacho Saalo"
       : "Shor Radio";
 
-  const tagline = isIconic
+const tagline = isSoft
+  ? "shor nahi, sirf ishq."
+  : isIconic
     ? "meri playlist, meri marzi."
     : isNaacho
       ? "baithna mana hai."
       : "songs for beautiful chaos";
 
-  const playlistUrl = isIconic
+  const playlistUrl = isSoft
+  ? "https://open.spotify.com/playlist/6uBhToZM2gLMmE2rk6MVFS"
+  : isIconic
     ? "https://open.spotify.com/playlist/4kmf3m2TEK7Enn974vQtkI"
     : isNaacho
       ? "https://open.spotify.com/playlist/74Fd1VZoB3BiiBDbiVqNmK"
