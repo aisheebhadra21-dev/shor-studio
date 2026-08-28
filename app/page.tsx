@@ -48,7 +48,7 @@ export default function HomePage() {
                 </div>
 
                 <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
-                  beautiful chaos
+                  beautiful chaos.
                 </p>
               </Link>
 
@@ -111,6 +111,26 @@ export default function HomePage() {
                   shor nahi, sirf ishq.
                 </p>
               </Link>
+
+{/* DEKHO, MAGAR PYAAR SE */}
+<Link
+  href="/romantic"
+  className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
+>
+  <div className="flex items-center justify-between">
+    <span className="text-xl text-white">
+      देखो, <span className="text-white/55">Magar Pyaar Se</span>
+    </span>
+
+    <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
+      →
+    </span>
+  </div>
+
+  <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+    mera dil phisal gayo re.
+  </p>
+</Link>
 
              </div>
           </div>

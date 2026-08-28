@@ -106,6 +106,21 @@ button {
   }
 }
 
+.romantic-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url("/bg/romantic-wide.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .romantic-bg {
+    background-image: url("/bg/romantic-tall.png");
+  }
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);

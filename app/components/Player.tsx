@@ -573,10 +573,194 @@ const SOFT_TRACKS: Track[] = [
 ];
 
 /* =========================
+   DEKHO, MAGAR PYAAR SE
+   ========================= */
+
+const ROMANTIC_TRACKS: Track[] = [
+  {
+    id: "4CugsCV0mb9QHnffgfnpQO",
+    title: "Daawat-e-Ishq",
+    artist: "Various Artists",
+  },
+  {
+    id: "6jWLxg64GmlOJ6EKsCDZ1I",
+    title: "Ishqaun Dhishqyaun",
+    artist: "Various Artists",
+  },
+  {
+    id: "5rV11RUN5odNzPaVNkucjd",
+    title: "Dhoka Dhoka",
+    artist: "Various Artists",
+  },
+  {
+    id: "4kUWdUJZnxWMxY31AzorKa",
+    title: "Dilbara",
+    artist: "Various Artists",
+  },
+  {
+    id: "7F2wxrc0bHjCQbBvESQBXY",
+    title: "Raat Ke Dhai Baje",
+    artist: "Various Artists",
+  },
+  {
+    id: "0fRQGNuIp5cdr9TBShw1bN",
+    title: "Gun Gun Guna",
+    artist: "Various Artists",
+  },
+  {
+    id: "6G8LGTxKurKEzGW3DV6HEH",
+    title: "Chingam Chabake",
+    artist: "Various Artists",
+  },
+  {
+    id: "5eIYbtHTZomvKPucc1oJoo",
+    title: "Tere Mere Beech Mein",
+    artist: "Various Artists",
+  },
+  {
+    id: "34wsgkPMRk3xIfHdwtezbf",
+    title: "Tainu Leke",
+    artist: "Various Artists",
+  },
+  {
+    id: "5yYgGkyYJmmSwRp3caFplJ",
+    title: "Radha",
+    artist: "Various Artists",
+  },
+  {
+    id: "5pQODzb8j3xMQ1qvrQXJvo",
+    title: "Laung Da Lashkara",
+    artist: "Various Artists",
+  },
+  {
+    id: "5q5elh7dSaiA8h7qC5bMGN",
+    title: "Paro",
+    artist: "Various Artists",
+  },
+  {
+    id: "0hgTkEDY9oIG5DPKN39KHP",
+    title: "Ude Dil Befikre",
+    artist: "Various Artists",
+  },
+  {
+    id: "3nINntbMrOno977x5wRMMj",
+    title: "Vacancy",
+    artist: "Various Artists",
+  },
+  {
+    id: "2Ggpu9s4UP2fO7bjgBMiss",
+    title: "Dhinka Chika",
+    artist: "Various Artists",
+  },
+  {
+    id: "6F4GPNjqX3msncEHOR18Y3",
+    title: "Ishq Kameena",
+    artist: "Various Artists",
+  },
+  {
+    id: "1VGt7ZmY4iPfrabXjIMHo4",
+    title: "Aashiqui Mein Teri",
+    artist: "Various Artists",
+  },
+  {
+    id: "6R4j3yJrYvyfk440C0enUW",
+    title: "Chor Bazaari",
+    artist: "Various Artists",
+  },
+  {
+    id: "1mQUEvGR7Sbt2OCz2gFrdx",
+    title: "Aayi Nai",
+    artist: "Various Artists",
+  },
+  {
+    id: "0JX7Es2j556FwtR6YqMKzP",
+    title: "Slow Motion Angreza",
+    artist: "Various Artists",
+  },
+  {
+    id: "0q84FggW57NXGtLHoetS0Y",
+    title: "Pardesiya",
+    artist: "Various Artists",
+  },
+  {
+    id: "6BJxQbKyQSdBOBIuW5TTmi",
+    title: "Shikdum",
+    artist: "Various Artists",
+  },
+  {
+    id: "0dfDtMJigXYVWoqNovKPA3",
+    title: "Tauba Tauba",
+    artist: "Various Artists",
+  },
+  {
+    id: "1gwO79MdYdumgIjxq8eCxB",
+    title: "Bahara",
+    artist: "Various Artists",
+  },
+  {
+    id: "6TuPGbfbcWxITQnyMy04rU",
+    title: "Jogi Mahi",
+    artist: "Various Artists",
+  },
+  {
+    id: "2aX5JlPdYrZZyGlqyjfwFm",
+    title: "Gazab",
+    artist: "Various Artists",
+  },
+  {
+    id: "29wRh7aUncjPkqWVkZStH2",
+    title: "Main Badhiya Tu Bhi Badhiya",
+    artist: "Various Artists",
+  },
+  {
+    id: "29TxNjggevDy8ovcglZvve",
+    title: "YPD Title Track (RDB Version) Part 1",
+    artist: "Various Artists",
+  },
+  {
+    id: "3qxLYSU1s5pqk8rz6dJNVi",
+    title: "Faraatta",
+    artist: "Various Artists",
+  },
+  {
+    id: "44OZwf1pS0nnoPJEz2pqAX",
+    title: "Madhubala",
+    artist: "Various Artists",
+  },
+  {
+    id: "0F04XRwhkYDkx2HVHtaqHt",
+    title: "Papa Jag Jayega",
+    artist: "Various Artists",
+  },
+  {
+    id: "28syjZyasVJ4J4oxBDOF1b",
+    title: "Bumbro",
+    artist: "Various Artists",
+  },
+  {
+    id: "0iROORKlmZN13wJNTOyPb4",
+    title: "Shyamal Sanware",
+    artist: "Various Artists",
+  },
+  {
+    id: "3vCzLB6kS2lGcIpm1OOUsy",
+    title: "Ishq Hai",
+    artist: "Various Artists",
+  },
+  {
+    id: "4Tt6aPhCnVPA9tFrK7E0Mx",
+    title: "Mehbooba Mehbooba",
+    artist: "Various Artists",
+  },
+];
+
+/* =========================
    TYPES
    ========================= */
 
-type PlayerProps = { room?: "radio" | "naacho" | "iconic" | "soft"; };
+type PlayerProps = {
+  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic";
+};
 
 /* =========================
    KOLKATA CLOCK
@@ -670,38 +854,47 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
   const isNaacho = room === "naacho";
 const isIconic = room === "iconic";
 const isSoft = room === "soft";
+const isRomantic = room === "romantic";
 
-const tracks = isSoft
-  ? SOFT_TRACKS
-  : isIconic
-    ? ICONIC_TRACKS
-    : isNaacho
-      ? NAACHO_TRACKS
-      : SHOR_TRACKS;
+const tracks = isRomantic
+  ? ROMANTIC_TRACKS
+  : isSoft
+    ? SOFT_TRACKS
+    : isIconic
+      ? ICONIC_TRACKS
+      : isNaacho
+        ? NAACHO_TRACKS
+        : SHOR_TRACKS;
 
-  const title = isSoft
-  ? "इश्क़ VISHQ"
-  : isIconic
-    ? "आइCONIC"
-    : isNaacho
-      ? "Naacho Saalo"
-      : "Shor Radio";
+  const title = isRomantic
+  ? "देखो, Magar Pyaar Se"
+  : isSoft
+    ? "इश्क़ VISHQ"
+    : isIconic
+      ? "आइCONIC"
+      : isNaacho
+        ? "Naacho Saalo"
+        : "Shor Radio";
 
-const tagline = isSoft
-  ? "shor nahi, sirf ishq."
-  : isIconic
-    ? "meri playlist, meri marzi."
-    : isNaacho
-      ? "baithna mana hai."
-      : "songs for beautiful chaos";
+const tagline = isRomantic
+  ? "mera dil phisal gayo re."
+  : isSoft
+    ? "shor nahi, sirf ishq."
+    : isIconic
+      ? "meri playlist, meri marzi."
+      : isNaacho
+        ? "baithna mana hai."
+        : "songs for beautiful chaos.";
 
-  const playlistUrl = isSoft
-  ? "https://open.spotify.com/playlist/6uBhToZM2gLMmE2rk6MVFS"
-  : isIconic
-    ? "https://open.spotify.com/playlist/4kmf3m2TEK7Enn974vQtkI"
-    : isNaacho
-      ? "https://open.spotify.com/playlist/74Fd1VZoB3BiiBDbiVqNmK"
-      : "https://open.spotify.com/playlist/2TXfUUl8lRIbF0S9qSoeOZ";
+  const playlistUrl = isRomantic
+  ? "https://open.spotify.com/playlist/23Rjmk8wz2T4oYQohEJcwZ"
+  : isSoft
+    ? "https://open.spotify.com/playlist/6uBhToZM2gLMmE2rk6MVFS"
+    : isIconic
+      ? "https://open.spotify.com/playlist/4kmf3m2TEK7Enn974vQtkI"
+      : isNaacho
+        ? "https://open.spotify.com/playlist/74Fd1VZoB3BiiBDbiVqNmK"
+        : "https://open.spotify.com/playlist/2TXfUUl8lRIbF0S9qSoeOZ";
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
