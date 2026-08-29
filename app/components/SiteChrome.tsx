@@ -5,7 +5,7 @@ import { KolkataClock } from "./Player";
 export function SiteChrome({
   room,
 }: {
-  room?: "radio" | "naacho" | "iconic" | "soft";
+  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic";
 }) {
   return (
     <>
