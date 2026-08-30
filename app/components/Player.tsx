@@ -221,9 +221,9 @@ const NAACHO_TRACKS: Track[] = [
     artist: "Thaman S · Sri Krishna · Sahithi Chaganti",
   },
   {
-  id: "5MHqNesgY5VngoCITqsZGh",
-  title: "Dholi Taro",
-  artist: "Various Artists",
+    id: "5MHqNesgY5VngoCITqsZGh",
+    title: "Dholi Taro",
+    artist: "Various Artists",
   },
   {
     id: "0kQpLj2M2ngqDnGuFeHvg4",
@@ -284,9 +284,9 @@ const ICONIC_TRACKS: Track[] = [
     artist: "Various Artists",
   },
   {
-  id: "2p54FBeWYWX56nPCaR67hP",
-  title: "Shake It Like Shammi",
-  artist: "Vishal-Shekhar · Benny Dayal",
+    id: "2p54FBeWYWX56nPCaR67hP",
+    title: "Shake It Like Shammi",
+    artist: "Vishal-Shekhar · Benny Dayal",
   },
   {
     id: "1y8Ck6jFOyxNC59SrQJIn6",
@@ -294,21 +294,21 @@ const ICONIC_TRACKS: Track[] = [
     artist: "Various Artists",
   },
   {
-  id: "2Z75W3sVrq9hVGJOskxcAw",
-  title: "Pallo Latke",
-  artist: "Zain-Sam · Fazilpuria · Yasser Desai · Jyotica Tangri · Kumaar",
+    id: "2Z75W3sVrq9hVGJOskxcAw",
+    title: "Pallo Latke",
+    artist: "Zain-Sam · Fazilpuria · Yasser Desai · Jyotica Tangri · Kumaar",
   },
   {
     id: "0kQpLj2M2ngqDnGuFeHvg4",
     title: "Malhari",
     artist: "Sanjay Leela Bhansali · Vishal Dadlani",
   },
-   {
+  {
     id: "0bHnzW0bxdghfzdX0BhDht",
     title: "Matru Ki Bijlee Ka Mandola",
     artist: "Various Artists",
   },
-   {
+  {
     id: "5se64jXNVjK96bNOBxBkX7",
     title: "Wajle Ki Bara",
     artist: "Various Artists",
@@ -626,13 +626,13 @@ const ROMANTIC_TRACKS: Track[] = [
     id: "5eIYbtHTZomvKPucc1oJoo",
     title: "Tere Mere Beech Mein",
     artist: "Various Artists",
-  }, 
+  },
   {
     id: "6G8LGTxKurKEzGW3DV6HEH",
     title: "Chingam Chabake",
     artist: "Various Artists",
   },
-   {
+  {
     id: "34wsgkPMRk3xIfHdwtezbf",
     title: "Tainu Leke",
     artist: "Various Artists",
@@ -656,7 +656,7 @@ const ROMANTIC_TRACKS: Track[] = [
     id: "5pQODzb8j3xMQ1qvrQXJvo",
     title: "Laung Da Lashkara",
     artist: "Various Artists",
-  }, 
+  },
   {
     id: "0hgTkEDY9oIG5DPKN39KHP",
     title: "Ude Dil Befikre",
@@ -701,7 +701,7 @@ const ROMANTIC_TRACKS: Track[] = [
     id: "0dfDtMJigXYVWoqNovKPA3",
     title: "Tauba Tauba",
     artist: "Various Artists",
-  },  
+  },
   {
     id: "6TuPGbfbcWxITQnyMy04rU",
     title: "Jogi Mahi",
@@ -770,11 +770,178 @@ const ROMANTIC_TRACKS: Track[] = [
 ];
 
 /* =========================
+   PEAK सुन्दरता
+   ========================= */
+
+const BEAUTY_TRACKS: Track[] = [
+  {
+    id: "4GrzhbZQQc9SrU4Vo6J3WY",
+    title: "Yoon Shabnami",
+    artist: "Various Artists",
+  },
+  {
+    id: "2zp2rgsKSqwcuN4OWH5eq8",
+    title: "Mor Bani Thanghat Kare",
+    artist: "Various Artists",
+  },
+  {
+    id: "0KEIFUBScxUSEWia9Bf92L",
+    title: "Era Sukher Laagi",
+    artist: "Various Artists",
+  },
+  {
+    id: "1O5mTSQa0sCce9ghhDqIZl",
+    title: "Jashn-E-Bahaaraa",
+    artist: "Various Artists",
+  },
+  {
+    id: "6sYox3GQGJg6zcQVDU9XqD",
+    title: "Kasto Mazza",
+    artist: "Various Artists",
+  },
+  {
+    id: "67wuqsKi5LZOBAtTLzeK8g",
+    title: "Mere Khayalon Ki Malika",
+    artist: "Various Artists",
+  },
+  {
+    id: "4YwGnKgtq7V0EI1hYNOirm",
+    title: "O Bekhabar",
+    artist: "Various Artists",
+  },
+  {
+    id: "29YePgOxuPLfU7uZKxKf6w",
+    title: "Sawaar Loon",
+    artist: "Various Artists",
+  },
+  {
+    id: "2K5E2U5SbVuWov1Dxe4Kei",
+    title: "Pherari Mon",
+    artist: "Various Artists",
+  },
+  {
+    id: "722iTdG4jgcueIWZjpwVr8",
+    title: "Jao Pakhi",
+    artist: "Various Artists",
+  },
+  {
+    id: "4qRcjFkFqSpLBzcbLDt7HL",
+    title: "Ambarsariya",
+    artist: "Various Artists",
+  },
+  {
+    id: "4wgR8jjv934KJhvGq8EpYR",
+    title: "Banthan Ke",
+    artist: "Various Artists",
+  },
+  {
+    id: "7uWt6BU9XnA6izKKjHtMwG",
+    title: "Apsara Aali",
+    artist: "Various Artists",
+  },
+  {
+    id: "6r90OdoRUIcCltarmYKnMe",
+    title: "Rajvaadi Odhni",
+    artist: "Various Artists",
+  },
+  {
+    id: "32DWojMZeZebVrfBkhAkKy",
+    title: "Barso Re",
+    artist: "Various Artists",
+  },
+  {
+    id: "7MAQPwX1d9t6ECrlXJSbbN",
+    title: "Sholon Si",
+    artist: "Various Artists",
+  },
+  {
+    id: "3B5pWnmR739mZFh4eVdFla",
+    title: "Udi",
+    artist: "Various Artists",
+  },
+  {
+    id: "5JlZLXvZBEFD9u8OoJq6Yh",
+    title: "Girls Like To Swing",
+    artist: "Various Artists",
+  },
+  {
+    id: "2FXeR9nXs0QkURYWASjYn4",
+    title: "Jhume Re Gori",
+    artist: "Various Artists",
+  },
+  {
+    id: "432leZkBmxF6si4ftPOOdn",
+    title: "Ghar More Pardesiya",
+    artist: "Various Artists",
+  },
+  {
+    id: "1hiymB0nRJQQ661XjVRNzP",
+    title: "Chhabeela",
+    artist: "Various Artists",
+  },
+  {
+    id: "28syjZyasVJ4J4oxBDOF1b",
+    title: "Bumbro",
+    artist: "Various Artists",
+  },
+  {
+    id: "56YL27bYDkVZPWf3FazjLk",
+    title: "Premika Ne Pyar Se",
+    artist: "Various Artists",
+  },
+  {
+    id: "1rEVydQSe04NJUqyyEyeEq",
+    title: "Afghan Jalebi",
+    artist: "Various Artists",
+  },
+  {
+    id: "0hp4qW1zgKnBBiyyAdW3Sz",
+    title: "Mayya",
+    artist: "Various Artists",
+  },
+  {
+    id: "6IQLxr1hzQVGLGMsuNWkUG",
+    title: "Kaali Teri Gutt",
+    artist: "Various Artists",
+  },
+  {
+    id: "0k2modGW9JkPeVZSYQvWhz",
+    title: "Husn Parcham",
+    artist: "Various Artists",
+  },
+  {
+    id: "3SDgHr72dJmr27JRvFUBZU",
+    title: "Chandra",
+    artist: "Various Artists",
+  },
+  {
+    id: "5y0t6OQy8nVGoeIoNcQZ7g",
+    title: "Kahin Aag Lage Lag Jaaye",
+    artist: "Various Artists",
+  },
+  {
+    id: "16R1Fq1nFxm9DJyzBzKjQk",
+    title: "Aayat",
+    artist: "Various Artists",
+  },
+  {
+    id: "6xToiyKcZVBnq4bZSgHENr",
+    title: "Tumhe Aaj Maine Jo Dekha",
+    artist: "Various Artists",
+  },
+  {
+    id: "6VOKUdxhjSwbjinKbguOmy",
+    title: "Achha Lagta Hai",
+    artist: "Various Artists",
+  },
+];
+
+/* =========================
    TYPES
    ========================= */
 
 type PlayerProps = {
-  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic";
+  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic" | "beauty";
 };
 
 /* =========================
@@ -833,12 +1000,12 @@ function RadioHeader({
         <div className="flex items-center gap-2">
           <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-indigo-300 shadow-[0_0_12px_rgba(165,180,252,.9)]" />
 
-          <span className="text-[9px] font-semibold uppercase tracking-[0.28em] text-white/70">
+          <span className="room-title text-[9px] font-semibold uppercase tracking-[0.28em] text-white/70">
             {title}
           </span>
         </div>
 
-        <p className="mt-1 text-[10px] italic tracking-[0.08em] text-white/45">
+        <p className="room-tagline mt-1 text-[10px] italic tracking-[0.08em] text-white/70 drop-shadow-[0_1px_5px_rgba(0,0,0,0.8)]">
           {tagline}
         </p>
       </div>
@@ -867,49 +1034,58 @@ function RadioHeader({
 
 export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
   const isNaacho = room === "naacho";
-const isIconic = room === "iconic";
-const isSoft = room === "soft";
-const isRomantic = room === "romantic";
+  const isIconic = room === "iconic";
+  const isSoft = room === "soft";
+  const isRomantic = room === "romantic";
+  const isBeauty = room === "beauty";
 
-const tracks = isRomantic
-  ? ROMANTIC_TRACKS
-  : isSoft
-    ? SOFT_TRACKS
-    : isIconic
-      ? ICONIC_TRACKS
-      : isNaacho
-        ? NAACHO_TRACKS
-        : SHOR_TRACKS;
+  const tracks = isBeauty
+    ? BEAUTY_TRACKS
+    : isRomantic
+      ? ROMANTIC_TRACKS
+      : isSoft
+        ? SOFT_TRACKS
+        : isIconic
+          ? ICONIC_TRACKS
+          : isNaacho
+            ? NAACHO_TRACKS
+            : SHOR_TRACKS;
 
-  const title = isRomantic
-  ? "देखो, Magar Pyaar Se"
-  : isSoft
-    ? "इश्क़ VISHQ"
-    : isIconic
-      ? "आइCONIC"
-      : isNaacho
-        ? "Naacho Saalo"
-        : "Shor Radio";
+  const title = isBeauty
+    ? "PEAK सुन्दरता"
+    : isRomantic
+      ? "देखो, Magar Pyaar Se"
+      : isSoft
+        ? "इश्क़ - VISHQ"
+        : isIconic
+          ? "आइCONIC"
+          : isNaacho
+            ? "Naacho Saalo"
+            : "Shor Radio";
 
-const tagline = isRomantic
-  ? "mera dil phisal gayo re."
-  : isSoft
-    ? "shor nahi, sirf ishq."
-    : isIconic
-      ? "meri playlist, meri marzi."
-      : isNaacho
-        ? "baithna mana hai."
-        : "songs for beautiful chaos.";
+  const tagline = isBeauty
+    ? "nazar sambhal ke."
+    : isRomantic
+      ? "mera dil phisal gayo re."
+      : isSoft
+        ? "shor nahi, sirf ishq."
+        : isIconic
+          ? "meri playlist, meri marzi."
+          : isNaacho
+            ? "baithna mana hai."
+            : "songs for beautiful chaos.";
 
-  const playlistUrl = isRomantic
-  ? "https://open.spotify.com/playlist/23Rjmk8wz2T4oYQohEJcwZ"
-  : isSoft
-    ? "https://open.spotify.com/playlist/6uBhToZM2gLMmE2rk6MVFS"
-    : isIconic
-      ? "https://open.spotify.com/playlist/4kmf3m2TEK7Enn974vQtkI"
-      : isNaacho
-        ? "https://open.spotify.com/playlist/74Fd1VZoB3BiiBDbiVqNmK"
-        : "https://open.spotify.com/playlist/2TXfUUl8lRIbF0S9qSoeOZ";
+  const playlistUrl = isBeauty
+    ? "https://open.spotify.com/playlist/79DcDNQRqFjK05sMOr0tBn"
+    : isRomantic
+      ? "https://open.spotify.com/playlist/23Rjmk8wz2T4oYQohEJcwZ"
+      : isSoft
+        ? "https://open.spotify.com/playlist/6uBhToZM2gLMmE2rk6MVFS"
+        : isIconic
+          ? "https://open.spotify.com/playlist/4kmf3m2TEK7Enn974vQtkI"
+          : isNaacho
+            ? "https://open.spotify.com/playlist/74Fd1VZoB3BiiBDbiVqNmK"
+            : "https://open.spotify.com/playlist/2TXfUUl8lRIbF0S9qSoeOZ";
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

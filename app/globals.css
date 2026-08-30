@@ -121,6 +121,19 @@ button {
   }
 }
 
+.beauty-bg {
+  background-image: url("/bg/beauty-wide.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .beauty-bg {
+    background-image: url("/bg/beauty-tall.png");
+  }
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -281,3 +294,16 @@ button {
   }
 }
 
+@media (max-width: 768px) {
+  .room-title {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.55);
+  }
+
+  .room-tagline {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.72);
+    text-shadow: 0 1px 7px rgba(0, 0, 0, 0.8);
+  }
+}

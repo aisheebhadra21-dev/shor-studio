@@ -27,113 +27,133 @@ export default function HomePage() {
 
           {/* PICK YOUR SHOR */}
           <p className="mb-5 text-[12px] font-bold uppercase tracking-[0.18em] text-white">
-  Pick your shor
-</p>
+            Pick your shor
+          </p>
 
-            <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid gap-4 sm:grid-cols-2">
 
-              {/* SHOR RADIO */}
-              <Link
-                href="/radio"
-                className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="text-xl text-white">
-                    शोर <span className="text-white/55">Radio</span>
-                  </span>
+            {/* SHOR RADIO */}
+            <Link
+              href="/radio"
+              className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-xl text-white">
+                  शोर <span className="text-white/55">Radio</span>
+                </span>
 
-                  <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
-                    →
-                  </span>
-                </div>
+                <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
+                  →
+                </span>
+              </div>
 
-                <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
-                  beautiful chaos.
-                </p>
-              </Link>
+              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+                beautiful chaos.
+              </p>
+            </Link>
 
-              {/* NAACHO SAALO */}
-              <Link
-                href="/naacho"
-                className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="text-xl text-white">
-                    Naacho <span className="text-white/55">Saalo</span>
-                  </span>
+            {/* NAACHO SAALO */}
+            <Link
+              href="/naacho"
+              className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-xl text-white">
+                  Naacho <span className="text-white/55">Saalo</span>
+                </span>
 
-                  <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
-                    →
-                  </span>
-                </div>
+                <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
+                  →
+                </span>
+              </div>
 
-                <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
-                  baithna mana hai.
-                </p>
-              </Link>
+              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+                baithna mana hai.
+              </p>
+            </Link>
 
-              {/* ICONIC */}
-              <Link
-                href="/iconic"
-                className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="text-xl text-white">
-                    आइ<span className="text-white/55">CONIC</span>
-                  </span>
+            {/* ICONIC */}
+            <Link
+              href="/iconic"
+              className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-xl text-white">
+                  आइ<span className="text-white/55">CONIC</span>
+                </span>
 
-                  <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
-                    →
-                  </span>
-                </div>
+                <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
+                  →
+                </span>
+              </div>
 
-                <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
-                  meri playlist, meri marzi.
-                </p>
-              </Link>
+              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+                meri playlist, meri marzi.
+              </p>
+            </Link>
 
-              {/* ISHQ VISHQ */}
-              <Link
-                href="/soft"
-                className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
-              >
-                <div className="flex items-center justify-between">
-                  <span className="text-xl text-white">
-                    इश्क़ <span className="text-white/55">VISHQ</span>
-                  </span>
+            {/* ISHQ VISHQ */}
+            <Link
+              href="/soft"
+              className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-xl text-white">
+                  इश्क़ <span className="text-white/55">- Vishq</span>
+                </span>
 
-                  <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
-                    →
-                  </span>
-                </div>
+                <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
+                  →
+                </span>
+              </div>
 
-                <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
-                  shor nahi, sirf ishq.
-                </p>
-              </Link>
+              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+                shor nahi, sirf ishq.
+              </p>
+            </Link>
 
-{/* DEKHO, MAGAR PYAAR SE */}
-<Link
-  href="/romantic"
-  className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
->
-  <div className="flex items-center justify-between">
-    <span className="text-xl text-white">
-      देखो, <span className="text-white/55">Magar Pyaar Se</span>
-    </span>
+            {/* DEKHO, MAGAR PYAAR SE */}
+            <Link
+              href="/romantic"
+              className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-xl text-white">
+                  देखो, <span className="text-white/55">Magar Pyaar Se</span>
+                </span>
 
-    <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
-      →
-    </span>
-  </div>
+                <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
+                  →
+                </span>
+              </div>
 
-  <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
-    mera dil phisal gayo re.
-  </p>
-</Link>
+              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+                mera dil phisal gayo re.
+              </p>
+            </Link>
 
-             </div>
+            {/* PEAK सुन्दरता */}
+            <Link
+              href="/beauty"
+              className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-xl text-white">
+                  Peak <span className="text-white/55">सुन्दरता</span>
+                </span>
+
+                <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
+                  →
+                </span>
+              </div>
+
+              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+                nazar sambhal ke.
+              </p>
+            </Link>
+
           </div>
+        </div>
       </section>
     </main>
   );
