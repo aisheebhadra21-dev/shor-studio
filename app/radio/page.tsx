@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { SiteChrome } from "../components/SiteChrome";
 import { Player } from "../components/Player";
 
@@ -23,18 +22,9 @@ export default function RadioPage() {
         className="grain fixed inset-0 -z-10 opacity-30"
       />
 
-<SiteChrome />
+      <SiteChrome room="radio" />
 
-<div className="safe-top safe-left fixed z-50 flex items-center gap-4">
-  <Link
-    href="/"
-    className="rounded-full border border-white/10 bg-black/20 px-3 py-2 text-[9px] uppercase tracking-[0.15em] text-white/70 backdrop-blur-md transition hover:bg-white/10 hover:text-white"
-  >
-    ← Home
-  </Link>
-</div>
-
-<Player />
+      <Player room="radio" />
     </main>
   );
 }
