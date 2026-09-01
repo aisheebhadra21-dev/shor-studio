@@ -36,7 +36,7 @@ function KolkataClock() {
 export function SiteChrome({
   room,
 }: {
-  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic" | "beauty";
+  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic" | "beauty" | "sensual";
 }) {
   return (
     <>
@@ -78,16 +78,29 @@ export function SiteChrome({
       </div>
 
       {/* Shor & Studio logo */}
-      <div className="pointer-events-none absolute left-1/2 top-[10%] z-20 -translate-x-1/2 opacity-95 sm:top-[8%]">
-        <Image
-          src="/shor-logo.png"
-          alt="शोर & Studio"
-          width={420}
-          height={180}
-          priority
-          className="h-auto w-[min(82vw,340px)] drop-shadow-[0_8px_22px_rgba(0,0,0,.5)] sm:w-[min(42vw,360px)]"
-        />
-      </div>
+<div
+  className={`pointer-events-none absolute left-1/2 z-20 -translate-x-1/2 opacity-95
+    top-[10%]
+    sm:top-[8%]
+    ${
+      room === "radio"
+        ? "max-sm:top-[10%]"
+        : room === "naacho"
+        ? "max-sm:top-[10%]"
+        : room === "sensual"
+        ? "max-sm:top-[9%]"
+        : "max-sm:top-[10%]"
+    }`}
+>
+  <Image
+    src="/shor-logo.png"
+    alt="शोर & Studio"
+    width={420}
+    height={180}
+    priority
+    className="h-auto w-[min(82vw,340px)] drop-shadow-[0_8px_22px_rgba(0,0,0,.5)] sm:w-[min(42vw,360px)]"
+  />
+</div>
     </>
   );
 }

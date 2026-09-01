@@ -152,6 +152,27 @@ export default function HomePage() {
               </p>
             </Link>
 
+{/* KASHISH — THE OTHER SIDE */}
+
+<Link
+  href="/sensual"
+  className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
+>
+  <div className="flex items-center justify-between">
+    <span className="text-xl text-white">
+      कशिश <span className="text-white/55">- The Other Side</span>
+    </span>
+
+<span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
+  →
+</span>
+  </div>
+
+  <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+    kuchh der aur.
+  </p>
+</Link>
+
           </div>
         </div>
       </section>

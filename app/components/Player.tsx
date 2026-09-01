@@ -937,11 +937,168 @@ const BEAUTY_TRACKS: Track[] = [
 ];
 
 /* =========================
+   कशिश - The Other Side
+   ========================= */
+
+const SENSUAL_TRACKS: Track[] = [
+  {
+    title: "Hai Rama",
+    artist: "Hariharan, Swarnalatha",
+    id: "0ZGicTeWpoIMpJax3NAuhn",
+  },
+  {
+    title: "Kaisi Paheli Zindgani",
+    artist: "Lata Mangeshkar",
+    id: "4FSqyrDui4q3gzfldntzRD",
+  },
+  {
+    title: "Khoya Khoya Chand - Acoustic",
+    artist: "Subholina",
+    id: "5A6BBkLjdYqkEcN0Pxiztm",
+  },
+  {
+    title: "Gale Lag Ja",
+    artist: "Javed Ali, Banjyotsna",
+    id: "24vt7dNAWKNlf0y5ayTxsv",
+  },
+  {
+    title: "Meri Jaan",
+    artist: "Neeti Mohan",
+    id: "4iEGv5Ne6HuCkFCjzxdWQK",
+  },
+  {
+    title: "Namak",
+    artist: "Javed Ali",
+    id: "2byRygY5pkF4DzTLgd1r6G",
+  },
+  {
+    title: "Tinka Tinka",
+    artist: "Alisha Chinai",
+    id: "7ybkDTSOcZu431OzpfcOJv",
+  },
+  {
+    title: "O Saathi Re",
+    artist: "Kishore Kumar",
+    id: "2NGd5mBUq6MpvHVw2NTQa4",
+  },
+  {
+    title: "Satrangi Re",
+    artist: "Sonu Nigam, Kavita Krishnamurthy",
+    id: "4OzSDQ3qMoSsz6aBcSaqJn",
+  },
+  {
+    title: "Jadu Hai Nasha Hai",
+    artist: "Shreya Ghoshal",
+    id: "3ezYLk9ned8ITGIPMvfpew",
+  },
+  {
+    title: "Zara Zara",
+    artist: "Bombay Jayashri",
+    id: "7wrYBASu0OoxoDErd4Edxd",
+  },
+  {
+    title: "Be Intehaan",
+    artist: "Atif Aslam, Sunidhi Chauhan",
+    id: "077SVSWuifvbBbkPMPP5kw",
+  },
+  {
+    title: "Behke Behke",
+    artist: "Rahat Fateh Ali Khan, Shreya Ghoshal, Suzanne D'Mello",
+    id: "3ijl9qo5is82rMyGoBfDO1",
+  },
+  {
+    title: "Aa Zara",
+    artist: "Sunidhi Chauhan",
+    id: "42epVqODeb3JYwG8XwahPi",
+  },
+  {
+    title: "Bheegi Saree",
+    artist: "Shubham Kabra",
+    id: "3z47FzesU0MyJKwpCGxOMp",
+  },
+  {
+    title: "Manohari",
+    artist: "Mohana Bhogaraju, Revanth",
+    id: "3sKfLcMJPAptbFLnCB1Ytr",
+  },
+  {
+    title: "Lahu Munh Lag Gaya",
+    artist: "Shail Hada",
+    id: "3eBdKorAlRB1GXQNXckdzY",
+  },
+  {
+    title: "Kahin Aag Lage Lag Jawe",
+    artist: "Asha Bhosle, Richa Sharma, Aditya Narayan",
+    id: "5y0t6OQy8nVGoeIoNcQZ7g",
+  },
+  {
+    title: "Ang Laga De",
+    artist: "Shail Hada, Shreya Ghoshal",
+    id: "3Pq8GuSIwiJKFZeaGCd3D2",
+  },
+  {
+    title: "Aaj Phir",
+    artist: "Arijit Singh, Samira Koppikar",
+    id: "32SDVo3sSMGPL0IzRA6YTX",
+  },
+  {
+    title: "Katra Katra",
+    artist: "Ankit Tiwari, Prakriti Kakar",
+    id: "0FMend2Dt9IUVDDtAPnLxO",
+  },
+  {
+    title: "Woh Lamhe Woh Baatein",
+    artist: "Atif Aslam",
+    id: "5fwRhPXAvGgzUxW62ZCvEg",
+  },
+  {
+    title: "Raat Ka Nasha",
+    artist: "Chitra",
+    id: "4gjFNGQ0BodNqiOAOAOMSW",
+  },
+  {
+    title: "Pyaar Ki Ye Kahani",
+    artist: "Shreya Ghoshal, Sonu Nigam",
+    id: "7cRyUMxmpNGbWG9xpDoPn5",
+  },
+  {
+    title: "Lazy Lamhe",
+    artist: "Monali Thakur",
+    id: "2IZQG2wYoVncO3hWCD4IyM",
+  },
+  {
+    title: "Fifi",
+    artist: "Mikey McCleary",
+    id:  "7Hd216xGh0HkQFtklXMfUM",
+  },
+  {
+    title: "I Don't Know What To Do",
+    artist: "Shreya Ghoshal, Zubeen Garg",
+    id: "6lahP9HhC6YflVhcwergHS",
+  },
+  {
+    title: "Aaj Ki Raat",
+    artist: "Alisha Chinai, Mahalakshmi Iyer, Sonu Nigam",
+    id: "4bPF3oy4JsKK1UeMMn7Byf",
+  },
+  {
+    title: "Mushkanein Jhoothi Hai",
+    artist: "Swanand Kirkire",
+    id: "6LX6modQsxnBouh7yZT6qx",
+  },
+  {
+    title: "Ramta Jogi",
+    artist: "Sukhwinder Singh, Alka Yagnik",
+    id: "2fsPrE2NYiHOHPMuWbjvTj",
+  },
+];
+
+/* =========================
    TYPES
    ========================= */
 
 type PlayerProps = {
-  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic" | "beauty";
+  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic" | "beauty" | "sensual";
 };
 
 /* =========================
@@ -1038,8 +1195,10 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
   const isSoft = room === "soft";
   const isRomantic = room === "romantic";
   const isBeauty = room === "beauty";
-
-  const tracks = isBeauty
+  const isSensual = room === "sensual";
+  const tracks = isSensual
+  ? SENSUAL_TRACKS
+  : isBeauty
     ? BEAUTY_TRACKS
     : isRomantic
       ? ROMANTIC_TRACKS
@@ -1051,7 +1210,9 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
             ? NAACHO_TRACKS
             : SHOR_TRACKS;
 
-  const title = isBeauty
+  const title = isSensual
+  ? "कशिश - The Other Side"
+  : isBeauty
     ? "PEAK सुन्दरता"
     : isRomantic
       ? "देखो, Magar Pyaar Se"
@@ -1063,7 +1224,9 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
             ? "Naacho Saalo"
             : "Shor Radio";
 
-  const tagline = isBeauty
+  const tagline = isSensual
+  ? "kuch der aur."
+  : isBeauty
     ? "nazar sambhal ke."
     : isRomantic
       ? "mera dil phisal gayo re."
@@ -1075,7 +1238,9 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
             ? "baithna mana hai."
             : "songs for beautiful chaos.";
 
-  const playlistUrl = isBeauty
+  const playlistUrl = isSensual
+  ? "https://open.spotify.com/playlist/1MRXSAWIgUzNiqgzxusQY1"
+  : isBeauty
     ? "https://open.spotify.com/playlist/79DcDNQRqFjK05sMOr0tBn"
     : isRomantic
       ? "https://open.spotify.com/playlist/23Rjmk8wz2T4oYQohEJcwZ"
@@ -1101,66 +1266,72 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
     );
   };
 
-  return (
-    <section className="safe-bottom fixed left-1/2 z-30 w-[calc(100%-2rem)] max-w-2xl -translate-x-1/2 sm:translate-y-0">
-      <div className="translate-y-6">
-        <RadioHeader
-          currentIndex={currentIndex}
-          title={title}
-          tagline={tagline}
-          playlistUrl={playlistUrl}
-          trackCount={tracks.length}
-        />
-      </div>
+    return (
+  <section className="safe-bottom fixed left-1/2 z-30 w-[calc(100%-2rem)] max-w-3xl -translate-x-1/2 sm:w-[calc(100%-2rem)] sm:translate-y-0">
+    <div className="translate-y-6">
+      <RadioHeader
+        currentIndex={currentIndex}
+        title={title}
+        tagline={tagline}
+        playlistUrl={playlistUrl}
+        trackCount={tracks.length}
+      />
+    </div>
 
-      <div className="glass overflow-hidden rounded-[26px] p-1 sm:rounded-[28px]">
-        <div className="relative overflow-hidden rounded-[20px] border border-white/10 bg-black/20">
-          <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-px bg-gradient-to-r from-transparent via-white/35 to-transparent" />
+    <div className="glass mx-auto w-full overflow-hidden rounded-[24px] p-1.5 pb-1 sm:rounded-[28px] sm:p-2">
+      <div className="relative -mx-7 h-[142px] overflow-hidden rounded-[20px] border border-white/10 bg-transparent sm:mx-0 sm:h-[152px]">
+  <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-px bg-gradient-to-r from-transparent via-white/35 to-transparent" />
 
-          <iframe
-            key={currentTrack.id}
-            title={`${title} — ${currentTrack.title}`}
-            src={`https://open.spotify.com/embed/track/${currentTrack.id}?utm_source=generator`}
-            width="100%"
-            height="152"
-            frameBorder="0"
-            loading="eager"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            className="block h-[152px] w-full"
-          />
+  <div className="absolute inset-0 overflow-hidden">
+<div className="absolute left-1/2 top-0 w-full -translate-x-1/2 origin-top scale-[0.87] sm:static sm:w-full sm:translate-x-0 sm:scale-100">
+    <iframe
+      key={currentTrack.id}
+      title={`${title} — ${currentTrack.title}`}
+      src={`https://open.spotify.com/embed/track/${currentTrack.id}?utm_source=generator`}
+      width="100%"
+      height="152"
+      frameBorder="0"
+      loading="eager"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      className="block h-[152px] w-full rounded-[20px] sm:rounded-[24px]"
+    />
+  </div>
+</div>
+</div>
+
+      <div className="flex items-center justify-between px-2 -translate-y-1 sm:px-2 sm:pt-2 sm:translate-y-0">
+        <button
+          onClick={previousTrack}
+          type="button"
+          style={{ fontSize: "13px" }}
+          className="shrink-0 rounded-full px-1.5 py-1 text-[8px] uppercase tracking-[0.12em] text-white/50 transition hover:bg-white/10 hover:text-white sm:px-3 sm:text-[9px] sm:tracking-[0.16em]"
+        >
+          ← Previous
+        </button>
+
+        <div className="min-w-0 px-2 text-center sm:px-3">
+          <p className="truncate text-[10px] font-medium uppercase tracking-[0.12em] text-white/70">
+            {currentTrack.title}
+          </p>
+
+          <p className="mt-0.5 truncate text-[9px] text-white/35">
+            {currentTrack.artist}
+          </p>
         </div>
 
-        <div className="flex items-center justify-between px-2 pt-2">
-          <button
-            onClick={previousTrack}
-            type="button"
-            className="shrink-0 rounded-full px-2 py-1.5 text-[8px] uppercase tracking-[0.12em] text-white/50 transition hover:bg-white/10 hover:text-white sm:px-3 sm:text-[9px] sm:tracking-[0.16em]"
-          >
-            ← Previous
-          </button>
-
-          <div className="min-w-0 px-3 text-center">
-            <p className="truncate text-[10px] font-medium uppercase tracking-[0.12em] text-white/70">
-              {currentTrack.title}
-            </p>
-
-            <p className="mt-0.5 truncate text-[9px] text-white/35">
-              {currentTrack.artist}
-            </p>
-          </div>
-
-          <button
-            onClick={nextTrack}
-            type="button"
-            className="shrink-0 rounded-full px-2 py-1.5 text-[8px] uppercase tracking-[0.12em] text-white/50 transition hover:bg-white/10 hover:text-white sm:px-3 sm:text-[9px] sm:tracking-[0.16em]"
-          >
-            Next →
-          </button>
-        </div>
+        <button
+          onClick={nextTrack}
+          type="button"
+          style={{ fontSize: "13px" }}
+          className="shrink-0 rounded-full px-2 py-1.5 text-[8px] uppercase tracking-[0.12em] text-white/50 transition hover:bg-white/10 hover:text-white sm:px-3 sm:text-[9px]"
+        >
+          Next →
+        </button>
       </div>
-    </section>
-  );
+    </div>
+  </section>
+);
 }
 
 export function Player({ room = "radio" }: PlayerProps) {

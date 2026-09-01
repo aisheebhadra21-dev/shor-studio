@@ -134,6 +134,20 @@ button {
   }
 }
 
+.sensual-bg {
+  background-image: url("/bg/sensual-wide.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 640px) {
+  .sensual-bg {
+    background-image: url("/bg/sensual-tall.png");
+    background-position: center;
+  }
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
