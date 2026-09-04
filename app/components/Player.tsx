@@ -14,19 +14,14 @@ type Track = {
 
 const SHOR_TRACKS: Track[] = [
   {
-    id: "3jxNbVmugKWFFc3YAVl0sD",
-    title: "Aabaad Barbaad",
-    artist: "Pritam · Arijit Singh",
+    id: "2sT0eosuhBEkw8dz6qFxUo",
+    title: "Aise Kyun",
+    artist: "Anurag Saikia · Raghav Chaitanya · Nikhita Gandhi",
   },
   {
     id: "3vCzLB6kS2lGcIpm1OOUsy",
     title: "Ishq Hai",
     artist: "Anurag Saikia · Romy · Varun Jain",
-  },
-  {
-    id: "2sT0eosuhBEkw8dz6qFxUo",
-    title: "Aise Kyun",
-    artist: "Anurag Saikia · Raghav Chaitanya · Nikhita Gandhi",
   },
   {
     id: "6gUWYLF4r3wUmdOQ8eymh7",
@@ -87,6 +82,11 @@ const SHOR_TRACKS: Track[] = [
     id: "77FL46gBFDDbKHJpQwc1b3",
     title: "Jawl Phoring",
     artist: "Silajit · Anupam Roy",
+  },
+  {
+    id: "3jxNbVmugKWFFc3YAVl0sD",
+    title: "Aabaad Barbaad",
+    artist: "Pritam · Arijit Singh",
   },
   {
     id: "78KKYDENYsw6jYfuEZsqJl",
@@ -165,10 +165,25 @@ const NAACHO_TRACKS: Track[] = [
     title: "Jalebi Bai",
     artist: "Ritu Pathak · Gorisha Gogoi · Anand Raj Anand",
   },
+    {
+    id: "63MvWd6T6yoS7h4AJ4Hjrm",
+    title: "Aankh Marey",
+    artist: "Neha Kakkar · Mika Singh · Kumar Sanu",
+  },
+  {
+    id: "7zWd5WiDuFPQgDtLEqLmts",
+    title: "Sweety Tera Drama",
+    artist: "Dev Negi · Pawni Pandey · Shraddha Pandit · Pravesh Mallick",
+  },
   {
     id: "1XfsjpesA33pLLCaWxAX1Q",
     title: "Dhanno",
     artist: "Mika Singh · Sunidhi Chauhan",
+  },
+  {
+    id: "0WdbnNKO0Jt4BZACSDQh44",
+    title: "Ghungroo",
+    artist: "Arijit Singh · Shilpa Rao",
   },
   {
     id: "72HdutlIHBZJ7WT1xVAAZT",
@@ -191,6 +206,11 @@ const NAACHO_TRACKS: Track[] = [
     artist: "Vishal Bhardwaj · Sukhwinder Singh · Sunidhi Chauhan",
   },
   {
+    id: "7EIq46YALncEzg0fYvLo0L",
+    title: "Zor Ka Jhatka",
+    artist: "Sonu Nigam · Neeraj Shridhar",
+  },
+  {
     id: "4GVNaX8tB7X14lv2hnUm3e",
     title: "Tune Maari Entriyaan",
     artist: "Sohail Sen · Vishal Dadlani · KK · Neeti Mohan",
@@ -204,6 +224,11 @@ const NAACHO_TRACKS: Track[] = [
     id: "7hNYvX0qAKrxtVr1jGDmvR",
     title: "Gallan Goodiyaan",
     artist: "Shankar-Ehsaan-Loy · Yashita Sharma · Farhan Akhtar",
+  },
+  {
+    id: "2Wu9PNpLUCBl3W1GaPqkhl",
+    title: "Morni Banke",
+    artist: "Guru Randhawa · Neha Kakkar",
   },
   {
     id: "3CXHPRFNic9WOsazT4huOJ",
@@ -226,6 +251,21 @@ const NAACHO_TRACKS: Track[] = [
     artist: "Various Artists",
   },
   {
+    id: "3LcLpFcpuQApNB0XXgxipQ",
+    title: "Chadti Jawani",
+    artist: "Lata Mangeshkar · Mukesh",
+  },
+  {
+    id: "3f8t2LZGYtdNQh8SNEiZcG",
+    title: "Amplifier",
+    artist: "Imran Khan",
+  },
+  {
+  id: "5RH4M64x1jvPMWHN5S2LAz",
+  title: "Ganpat",
+  artist: "Mika Singh · Anchal",
+  },
+    {
     id: "0kQpLj2M2ngqDnGuFeHvg4",
     title: "Malhari",
     artist: "Sanjay Leela Bhansali · Vishal Dadlani",
@@ -234,6 +274,11 @@ const NAACHO_TRACKS: Track[] = [
     id: "7iW9pTNgp2HtlRJinoYuiA",
     title: "Emosanal Attyachaar",
     artist: "Band Master Rangeela · Rasila",
+  },
+  {
+    id: "4HfmI5Yisll9PCOjJhtijw",
+    title: "Jhoom Barabar Jhoom",
+    artist: "Shankar Mahadevan · KK · Sukhwinder Singh · Mahalaxmi Iyer",
   },
 ];
 
@@ -342,6 +387,11 @@ const ICONIC_TRACKS: Track[] = [
     id: "1kptwDq9gbWOdmTm6C2bCm",
     title: "Jadoo Ki Jhappi",
     artist: "Various Artists",
+  },
+  {
+  id: "2h1d6XPdBms5i7YwyfOO7q",
+  title: "Halkat Jawani",
+  artist: "Salim–Sulaiman · Sunidhi Chauhan",
   },
   {
     id: "5xJD9iDQV4yDbagNGmJOKN",
@@ -511,6 +561,11 @@ const SOFT_TRACKS: Track[] = [
     artist: "Rahat Fateh Ali Khan",
   },
   {
+  id: "2XYyriLyJSuGj4FN7QoNmM",
+  title: "Khudaya Khair",
+  artist: "Pritam · Soham Chakraborty · Akriti Kakar · Monali Thakur",
+},
+  {
     id: "5WncH5iZ5GFlnXm7jKEXVP",
     title: "Labon Ko",
     artist: "Various Artists",
@@ -556,6 +611,11 @@ const SOFT_TRACKS: Track[] = [
     artist: "Various Artists",
   },
   {
+    id: "7xvenkAHls5xTNUKDkD8Jm",
+    title: "In Aankhon Mein Tum",
+    artist: "Various Artists",
+  },
+  {
     id: "1udm3l9b7ihq00RtHAFkBx",
     title: "Piya Tora Kaisa Abhiman",
     artist: "Various Artists",
@@ -576,13 +636,13 @@ const SOFT_TRACKS: Track[] = [
     artist: "Various Artists",
   },
   {
+  id: "0u8wprNfOdcWpUlWnfMcpP",
+  title: "Bol Na Halke Halke",
+  artist: "Shankar-Ehsaan-Loy · Rahat Fateh Ali Khan · Mahalakshmi Iyer",
+},
+{
     id: "1OKzFUAlwKKXImxgNDacbf",
     title: "Rukhi Sukhi Roti",
-    artist: "Various Artists",
-  },
-  {
-    id: "7xvenkAHls5xTNUKDkD8Jm",
-    title: "In Aankhon Mein Tum",
     artist: "Various Artists",
   },
 ];
@@ -720,11 +780,6 @@ const ROMANTIC_TRACKS: Track[] = [
   {
     id: "1mQUEvGR7Sbt2OCz2gFrdx",
     title: "Aayi Nai",
-    artist: "Various Artists",
-  },
-  {
-    id: "44OZwf1pS0nnoPJEz2pqAX",
-    title: "Madhubala",
     artist: "Various Artists",
   },
   {
@@ -900,6 +955,11 @@ const BEAUTY_TRACKS: Track[] = [
     artist: "Various Artists",
   },
   {
+  id: "32cqy9FmQO5g9RuywzrJka",
+  title: "Joganiyan",
+  artist: "Sajid-Wajid · Shruti Haasan",
+},
+  {
     id: "6IQLxr1hzQVGLGMsuNWkUG",
     title: "Kaali Teri Gutt",
     artist: "Various Artists",
@@ -912,11 +972,6 @@ const BEAUTY_TRACKS: Track[] = [
   {
     id: "3SDgHr72dJmr27JRvFUBZU",
     title: "Chandra",
-    artist: "Various Artists",
-  },
-  {
-    id: "5y0t6OQy8nVGoeIoNcQZ7g",
-    title: "Kahin Aag Lage Lag Jaaye",
     artist: "Various Artists",
   },
   {
@@ -967,9 +1022,19 @@ const SENSUAL_TRACKS: Track[] = [
     id: "4iEGv5Ne6HuCkFCjzxdWQK",
   },
   {
+  id: "5vi2v2FeqGwxpMEsHxXzJd",
+  title: "Chalak Chalak",
+  artist: "Various Artists",
+},
+  {
     title: "Namak",
     artist: "Javed Ali",
     id: "2byRygY5pkF4DzTLgd1r6G",
+  },
+  {
+    title: "Satrangi Re",
+    artist: "Sonu Nigam, Kavita Krishnamurthy",
+    id: "4OzSDQ3qMoSsz6aBcSaqJn",
   },
   {
     title: "Tinka Tinka",
@@ -980,11 +1045,6 @@ const SENSUAL_TRACKS: Track[] = [
     title: "O Saathi Re",
     artist: "Kishore Kumar",
     id: "2NGd5mBUq6MpvHVw2NTQa4",
-  },
-  {
-    title: "Satrangi Re",
-    artist: "Sonu Nigam, Kavita Krishnamurthy",
-    id: "4OzSDQ3qMoSsz6aBcSaqJn",
   },
   {
     title: "Jadu Hai Nasha Hai",
@@ -1006,6 +1066,11 @@ const SENSUAL_TRACKS: Track[] = [
     artist: "Rahat Fateh Ali Khan, Shreya Ghoshal, Suzanne D'Mello",
     id: "3ijl9qo5is82rMyGoBfDO1",
   },
+{
+  id: "5ZNWQ3GAz7ctU5rYmW81MV",
+  title: "Bandook Meri Laila",
+  artist: "Various Artists",
+}, 
   {
     title: "Aa Zara",
     artist: "Sunidhi Chauhan",
@@ -1016,6 +1081,11 @@ const SENSUAL_TRACKS: Track[] = [
     artist: "Shubham Kabra",
     id: "3z47FzesU0MyJKwpCGxOMp",
   },
+  {
+  id: "5IIoQg5A7agXCksmdRLX7i",
+  title: "Aga Bai",
+  artist: "Various Artists",
+ },
   {
     title: "Manohari",
     artist: "Mohana Bhogaraju, Revanth",
@@ -1031,6 +1101,11 @@ const SENSUAL_TRACKS: Track[] = [
     artist: "Asha Bhosle, Richa Sharma, Aditya Narayan",
     id: "5y0t6OQy8nVGoeIoNcQZ7g",
   },
+  {
+  id: "0dRRD41kOiDQQm0eivdbUr",
+  title: "Piya More",
+  artist: "Various Artists",
+},
   {
     title: "Ang Laga De",
     artist: "Shail Hada, Shreya Ghoshal",
@@ -1071,6 +1146,7 @@ const SENSUAL_TRACKS: Track[] = [
     artist: "Mikey McCleary",
     id:  "7Hd216xGh0HkQFtklXMfUM",
   },
+  
   {
     title: "I Don't Know What To Do",
     artist: "Shreya Ghoshal, Zubeen Garg",
@@ -1229,7 +1305,7 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
   : isBeauty
     ? "nazar sambhal ke."
     : isRomantic
-      ? "mera dil phisal gayo re."
+      ? "mera dil machal gayo re."
       : isSoft
         ? "shor nahi, sirf ishq."
         : isIconic

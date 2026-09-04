@@ -44,9 +44,15 @@ button {
   background-repeat: no-repeat;
 }
 
-.home-bg,
-.radio-bg {
+.home-bg {
   background-image: url("/bg/scene-wide.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.radio-bg {
+  background-image: url("/bg/home-wide.png");
 }
 
 .naacho-bg {
@@ -55,14 +61,14 @@ button {
 
 @media (max-width: 768px) {
   .home-bg {
-    background-image: url("/bg/scene-tall.png");
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-  }
+  background-image: url("/bg/scene-tall.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
 
   .radio-bg {
-    background-image: url("/bg/scene-tall.png");
+    background-image: url("/bg/home-tall.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;

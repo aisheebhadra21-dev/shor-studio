@@ -77,20 +77,21 @@ export function SiteChrome({
         </a>
       </div>
 
-      {/* Shor & Studio logo */}
+{/* Shor & Studio logo */}
 <div
-  className={`pointer-events-none absolute left-1/2 z-20 -translate-x-1/2 opacity-95
-    top-[10%]
-    sm:top-[8%]
+  className={`pointer-events-none absolute left-1/2 z-20 -translate-x-1/2 opacity-95 
     ${
-      room === "radio"
-        ? "max-sm:top-[10%]"
-        : room === "naacho"
-        ? "max-sm:top-[10%]"
-        : room === "sensual"
-        ? "max-sm:top-[9%]"
-        : "max-sm:top-[10%]"
-    }`}
+      room
+        ? "top-[10%] sm:top-[11%]"
+        : "top-[10%] sm:top-[6%]"
+    }
+    ${
+  room === "sensual"
+    ? "max-sm:top-[9%]"
+    : room
+      ? "max-sm:top-[12%]"
+      : "max-sm:top-[10%]"
+}`}
 >
   <Image
     src="/shor-logo.png"
@@ -98,9 +99,13 @@ export function SiteChrome({
     width={420}
     height={180}
     priority
-    className="h-auto w-[min(82vw,340px)] drop-shadow-[0_8px_22px_rgba(0,0,0,.5)] sm:w-[min(42vw,360px)]"
+    className={
+  room
+    ? "h-auto w-[min(72vw,300px)] brightness-95 drop-shadow-[0_8px_22px_rgba(0,0,0,.5)] sm:w-[min(34vw,320px)]"
+    : "h-auto w-[min(35vw,330px)] max-sm:w-[min(112vw,360px)] brightness-95 max-sm:brightness-110 drop-shadow-[0_8px_22px_rgba(0,0,0,.5)]"
+}
   />
 </div>
-    </>
+</>
   );
-}
+}      

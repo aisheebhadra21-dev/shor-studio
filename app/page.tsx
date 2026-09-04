@@ -7,7 +7,7 @@ export default function HomePage() {
     <main className="relative min-h-dvh overflow-x-hidden">
       <div
         aria-hidden="true"
-        className="hero-bg home-bg fixed left-0 top-0 h-screen w-screen -z-20"
+        className="hero-bg home-bg fixed inset-0 -z-20"
       />
 
       <div
@@ -52,7 +52,7 @@ export default function HomePage() {
               </p>
             </Link>
 
-            {/* NAACHO SAALO */}
+           {/* NAACHO SAALO */}
             <Link
               href="/naacho"
               className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
@@ -71,7 +71,7 @@ export default function HomePage() {
                 baithna mana hai.
               </p>
             </Link>
-
+            
             {/* ICONIC */}
             <Link
               href="/iconic"
@@ -89,46 +89,6 @@ export default function HomePage() {
 
               <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
                 meri playlist, meri marzi.
-              </p>
-            </Link>
-
-            {/* ISHQ VISHQ */}
-            <Link
-              href="/soft"
-              className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
-            >
-              <div className="flex items-center justify-between">
-                <span className="text-xl text-white">
-                  इश्क़ <span className="text-white/55">- Vishq</span>
-                </span>
-
-                <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
-                  →
-                </span>
-              </div>
-
-              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
-                shor nahi, sirf ishq.
-              </p>
-            </Link>
-
-            {/* DEKHO, MAGAR PYAAR SE */}
-            <Link
-              href="/romantic"
-              className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
-            >
-              <div className="flex items-center justify-between">
-                <span className="text-xl text-white">
-                  देखो, <span className="text-white/55">Magar Pyaar Se</span>
-                </span>
-
-                <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
-                  →
-                </span>
-              </div>
-
-              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
-                mera dil phisal gayo re.
               </p>
             </Link>
 
@@ -152,7 +112,47 @@ export default function HomePage() {
               </p>
             </Link>
 
-{/* KASHISH — THE OTHER SIDE */}
+            {/* DEKHO, MAGAR PYAAR SE */}
+            <Link
+              href="/romantic"
+              className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-xl text-white">
+                  देखो, <span className="text-white/55">Magar Pyaar Se</span>
+                </span>
+
+                <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
+                  →
+                </span>
+              </div>
+
+              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+                mera dil machal gayo re.
+              </p>
+            </Link>
+
+            {/* ISHQ VISHQ */}
+            <Link
+              href="/soft"
+              className="group rounded-[28px] border border-white/10 bg-black/20 p-6 text-left backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-black/30 sm:col-span-2"
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-xl text-white">
+                  इश्क़ <span className="text-white/55">- Vishq</span>
+                </span>
+
+                <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
+                  →
+                </span>
+              </div>
+
+              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+                shor nahi, sirf ishq.
+              </p>
+            </Link>
+
+ {/* KASHISH — THE OTHER SIDE */}
 
 <Link
   href="/sensual"
