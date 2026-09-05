@@ -29,9 +29,13 @@ body {
   font-family: var(--font-sans);
 }
 
+.font-poppins {
+  font-family: var(--font-poppins), sans-serif;
+}
+
 button,
 input {
-  font: inherit;
+  font-family: inherit;
 }
 
 button {

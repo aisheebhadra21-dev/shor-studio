@@ -1204,7 +1204,7 @@ function KolkataClock() {
   }, []);
 
   return (
-    <div className="safe-top safe-left fixed z-40 translate-y-[5px] text-[10px] font-medium uppercase tracking-[0.14em] text-white/80">
+    <div className="safe-top safe-left fixed z-40 translate-y-[5px] font-poppins text-[10px] font-medium uppercase tracking-[0.14em] text-white/80">
       {time || "Kolkata"}
     </div>
   );
@@ -1213,6 +1213,24 @@ function KolkataClock() {
 /* =========================
    HEADER
    ========================= */
+
+function MixedFontText({ text }: { text: string }) {
+  const parts = text.split(/([\u0900-\u097F]+)/g);
+
+  return (
+    <>
+      {parts.map((part, index) =>
+        /[\u0900-\u097F]/.test(part) ? (
+          <span key={index}>{part}</span>
+        ) : (
+          <span key={index} className="font-poppins">
+            {part}
+          </span>
+        )
+      )}
+    </>
+  );
+}
 
 function RadioHeader({
   currentIndex,
@@ -1234,12 +1252,12 @@ function RadioHeader({
           <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-indigo-300 shadow-[0_0_12px_rgba(165,180,252,.9)]" />
 
           <span className="room-title text-[9px] font-semibold uppercase tracking-[0.28em] text-white/70">
-            {title}
+            <MixedFontText text={title} />
           </span>
         </div>
 
         <p className="room-tagline mt-1 text-[10px] italic tracking-[0.08em] text-white/70 drop-shadow-[0_1px_5px_rgba(0,0,0,0.8)]">
-          {tagline}
+          <MixedFontText text={tagline} />
         </p>
       </div>
 
@@ -1248,12 +1266,12 @@ function RadioHeader({
           href={playlistUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="rounded-full border border-white/15 bg-black/25 px-3 py-1.5 text-[7px] font-medium uppercase tracking-[0.18em] text-white/55 backdrop-blur-md transition hover:bg-white/10 hover:text-white sm:px-3.5 sm:py-2 sm:text-[8px]"
+          className="font-poppins rounded-full border border-white/15 bg-black/25 px-3 py-1.5 text-[7px] font-medium uppercase tracking-[0.18em] text-white/55 backdrop-blur-md transition hover:bg-white/10 hover:text-white sm:px-3.5 sm:py-2 sm:text-[8px]"
         >
           Open full playlist ↗
         </a>
 
-        <span className="whitespace-nowrap text-[8px] uppercase tracking-[0.12em] text-white/40 sm:text-[9px] sm:tracking-[0.16em]">
+        <span className="font-poppins whitespace-nowrap text-[8px] uppercase tracking-[0.12em] text-white/40 sm:text-[9px] sm:tracking-[0.16em]">
           {String(currentIndex + 1).padStart(2, "0")} / {trackCount}
         </span>
       </div>
@@ -1376,34 +1394,32 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
 </div>
 </div>
 
-      <div className="flex items-center justify-between px-2 -translate-y-1 sm:px-2 sm:pt-2 sm:translate-y-0">
+      <div className="relative top-[1.4px] flex items-center justify-between px-2 sm:top-0 sm:px-2 sm:pt-2">
         <button
-          onClick={previousTrack}
-          type="button"
-          style={{ fontSize: "13px" }}
-          className="shrink-0 rounded-full px-1.5 py-1 text-[8px] uppercase tracking-[0.12em] text-white/50 transition hover:bg-white/10 hover:text-white sm:px-3 sm:text-[9px] sm:tracking-[0.16em]"
-        >
-          ← Previous
-        </button>
+  onClick={previousTrack}
+  type="button"
+  className="font-poppins shrink-0 rounded-full px-1.5 py-1 text-[12px] uppercase tracking-[0.10em] text-white/50 transition hover:bg-white/10 hover:text-white sm:px-3 sm:text-[16px] sm:tracking-[0.16em]"
+>
+  ← Previous
+</button>
 
-        <div className="min-w-0 px-2 text-center sm:px-3">
-          <p className="truncate text-[10px] font-medium uppercase tracking-[0.12em] text-white/70">
+        <div className="min-w-0 w-[40%] px-1 text-center sm:w-auto sm:px-3">
+          <p className="font-poppins truncate text-[9px] font-medium uppercase tracking-[0.12em] text-white/70 sm:text-[11px]">
             {currentTrack.title}
           </p>
 
-          <p className="mt-0.5 truncate text-[9px] text-white/35">
+          <p className="font-poppins mt-0.5 truncate text-[8px] text-white/35 sm:text-[10px]">
             {currentTrack.artist}
           </p>
         </div>
 
         <button
-          onClick={nextTrack}
-          type="button"
-          style={{ fontSize: "13px" }}
-          className="shrink-0 rounded-full px-2 py-1.5 text-[8px] uppercase tracking-[0.12em] text-white/50 transition hover:bg-white/10 hover:text-white sm:px-3 sm:text-[9px]"
-        >
-          Next →
-        </button>
+  onClick={nextTrack}
+  type="button"
+  className="font-poppins shrink-0 rounded-full px-2 py-1.5 text-[12px] uppercase tracking-[0.10em] text-white/50 transition hover:bg-white/10 hover:text-white sm:px-3 sm:text-[16px]"
+>
+  Next →
+</button>
       </div>
     </div>
   </section>

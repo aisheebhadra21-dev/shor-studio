@@ -26,7 +26,7 @@ export default function HomePage() {
         <div className="w-full max-w-2xl">
 
           {/* PICK YOUR SHOR */}
-          <p className="mb-5 text-[12px] font-bold uppercase tracking-[0.18em] text-white">
+          <p className="font-poppins mb-5 text-[12px] font-bold uppercase tracking-[0.18em] text-white">
             Pick your shor
           </p>
 
@@ -39,7 +39,7 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
-                  शोर <span className="text-white/55">Radio</span>
+                  शोर <span className="font-poppins text-white/55">Radio</span>
                 </span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
@@ -47,7 +47,7 @@ export default function HomePage() {
                 </span>
               </div>
 
-              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+              <p className="font-poppins mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
                 beautiful chaos.
               </p>
             </Link>
@@ -59,15 +59,16 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
-                  Naacho <span className="text-white/55">Saalo</span>
-                </span>
+  <span className="font-poppins">Naacho</span>{" "}
+  <span className="font-poppins text-white/55">Saalo</span>
+</span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
                   →
                 </span>
               </div>
 
-              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+              <p className="font-poppins mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
                 baithna mana hai.
               </p>
             </Link>
@@ -79,7 +80,7 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
-                  आइ<span className="text-white/55">CONIC</span>
+                  आइ<span className="font-poppins text-white/55">CONIC</span>
                 </span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
@@ -87,7 +88,7 @@ export default function HomePage() {
                 </span>
               </div>
 
-              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+              <p className="font-poppins mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
                 meri playlist, meri marzi.
               </p>
             </Link>
@@ -99,15 +100,16 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
-                  Peak <span className="text-white/55">सुन्दरता</span>
-                </span>
+  <span className="font-poppins">Peak</span>{" "}
+  <span className="text-white/55">सुन्दरता</span>
+</span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
                   →
                 </span>
               </div>
 
-              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+              <p className="font-poppins mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
                 nazar sambhal ke.
               </p>
             </Link>
@@ -119,7 +121,7 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
-                  देखो, <span className="text-white/55">Magar Pyaar Se</span>
+                  देखो, <span className="font-poppins text-white/55">Magar Pyaar Se</span>
                 </span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
@@ -127,7 +129,7 @@ export default function HomePage() {
                 </span>
               </div>
 
-              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+              <p className="font-poppins mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
                 mera dil machal gayo re.
               </p>
             </Link>
@@ -139,7 +141,7 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
-                  इश्क़ <span className="text-white/55">- Vishq</span>
+                  इश्क़ <span className="font-poppins text-white/55">- Vishq</span>
                 </span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
@@ -147,7 +149,7 @@ export default function HomePage() {
                 </span>
               </div>
 
-              <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+              <p className="font-poppins mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
                 shor nahi, sirf ishq.
               </p>
             </Link>
@@ -160,7 +162,7 @@ export default function HomePage() {
 >
   <div className="flex items-center justify-between">
     <span className="text-xl text-white">
-      कशिश <span className="text-white/55">- The Other Side</span>
+      कशिश <span className="font-poppins text-white/55">- The Other Side</span>
     </span>
 
 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
@@ -168,7 +170,7 @@ export default function HomePage() {
 </span>
   </div>
 
-  <p className="mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
+  <p className="font-poppins mt-3 text-[10px] uppercase tracking-[0.16em] text-white/40">
     kuchh der aur.
   </p>
 </Link>
