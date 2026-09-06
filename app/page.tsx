@@ -25,8 +25,13 @@ export default function HomePage() {
       <section className="relative z-10 flex min-h-dvh flex-col items-center px-6 pb-44 pt-[54vh] text-center sm:pt-[62vh]">
         <div className="w-full max-w-2xl">
 
-          {/* PICK YOUR SHOR */}
-          <p className="font-poppins mb-5 text-[12px] font-bold uppercase tracking-[0.18em] text-white">
+          <p className="font-poppins mb-6 -mt-6 text-[12.8px] font-semibold leading-relaxed text-white [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_4px_rgba(0,0,0,0.8)] max-sm:mt-0.5 max-sm:text-[14px] max-sm:text-white/65">
+  Welcome to Aishee’s multiverse. Mood badlo, mahol badlo, playlist badlo —
+  and most importantly, bas enjoy karo.
+</p>
+
+{/* PICK YOUR SHOR */}
+          <p className="font-poppins mb-5 mt-4 text-[12px] font-bold uppercase tracking-[0.18em] text-white sm:mt-10.5 max-sm:text-white/70">
             Pick your shor
           </p>
 
@@ -39,7 +44,8 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
-                  शोर <span className="font-poppins text-white/55">Radio</span>
+                  <span className="text-[22.4px] sm:text-[19.4px]">शोर</span>{" "}
+<span className="font-poppins text-white/55">Radio</span>
                 </span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
@@ -80,7 +86,8 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
-                  आइ<span className="font-poppins text-white/55">CONIC</span>
+<span className="text-[22.9px] sm:text-[19.9px]">आइ</span>
+                  <span className="font-poppins text-white/55">CONIC</span>
                 </span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
@@ -101,7 +108,7 @@ export default function HomePage() {
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
   <span className="font-poppins">Peak</span>{" "}
-  <span className="text-white/55">सुन्दरता</span>
+  <span className="text-[22.4px] text-white/55 sm:text-[19.4px]">सुन्दरता</span>
 </span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
@@ -121,7 +128,9 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
-                  देखो, <span className="font-poppins text-white/55">Magar Pyaar Se</span>
+                  <span className="text-[22.4px] sm:text-[19.4px]">देखो,</span>{" "}
+
+<span className="font-poppins text-white/55">Magar Pyaar Se</span>
                 </span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
@@ -141,7 +150,8 @@ export default function HomePage() {
             >
               <div className="flex items-center justify-between">
                 <span className="text-xl text-white">
-                  इश्क़ <span className="font-poppins text-white/55">- Vishq</span>
+                  <span className="text-[22.4px] sm:text-[19.4px]">इश्क़</span>{" "}
+<span className="font-poppins text-white/55">- Vishq</span>
                 </span>
 
                 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">
@@ -162,7 +172,8 @@ export default function HomePage() {
 >
   <div className="flex items-center justify-between">
     <span className="text-xl text-white">
-      कशिश <span className="font-poppins text-white/55">- The Other Side</span>
+      <span className="text-[22.4px] sm:text-[19.4px]">कशिश</span>{" "}
+<span className="font-poppins text-white/55">- The Other Side</span>
     </span>
 
 <span className="text-xs text-white/40 transition group-hover:translate-x-1 group-hover:text-white/80">

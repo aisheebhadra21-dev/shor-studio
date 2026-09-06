@@ -83,7 +83,7 @@ export function SiteChrome({
     ${
       room
         ? "top-[10%] sm:top-[11%]"
-        : "top-[10%] sm:top-[6%]"
+        : "top-[10%] sm:top-[5.5%]"
     }
     ${
   room === "sensual"
@@ -102,7 +102,7 @@ export function SiteChrome({
     className={
   room
     ? "h-auto w-[min(72vw,300px)] brightness-95 drop-shadow-[0_8px_22px_rgba(0,0,0,.5)] sm:w-[min(34vw,320px)]"
-    : "h-auto w-[min(35vw,330px)] max-sm:w-[min(112vw,360px)] brightness-90 max-sm:brightness-97 drop-shadow-[0_8px_22px_rgba(0,0,0,.5)]"
+    : "h-auto w-[min(33vw,310px)] max-sm:w-[min(139vw,430px)] brightness-90 max-sm:brightness-94 drop-shadow-[0_8px_22px_rgba(0,0,0,.5)]"
 }
   />
 </div>

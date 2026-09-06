@@ -34,45 +34,60 @@ const SHOR_TRACKS: Track[] = [
     artist: "Shashwat Sachdev · Romy · Pawni Pandey",
   },
   {
-    id: "4vHRQnzGcKEtqsLH70tAms",
-    title: "Raanjhan",
-    artist: "Sachet-Parampara · Parampara Tandon",
-  },
-  {
     id: "7G5wpuR61ABrT7R1snos7C",
     title: "Kalank – Title Track",
     artist: "Pritam · Arijit Singh",
-  },
-  {
-    id: "2mVqfKbKGmxVXlVswhlI5T",
-    title: "Chaap Tilak",
-    artist: "Abida Parveen · Rahat Fateh Ali Khan",
-  },
-  {
-    id: "4gOjXXEwYz2WS9s6ixgUtd",
-    title: "Tani Sun La",
-    artist: "Vaibhav Bundhoo · Traditional",
   },
   {
     id: "6hVq4MGBhPIniEmpGbJIWR",
     title: "Hardum Humdum",
     artist: "Pritam · Arijit Singh",
   },
-  {
-    id: "2QophXhN2Ls2URfoPmiviC",
-    title: "Kho Gaye",
-    artist: "Taaruk Raina · Mismatched Cast",
+ {
+  id: "6U28uT3sr2xZlTniZEWiHI",
+  title: "Chaudhary",
+  artist: "Mame Khan",
   },
-  {
-    id: "4SrVkrpAyykhbVnATbfvPV",
-    title: "Dhadak – Title Track",
-    artist: "Ajay Gogavale · Shreya Ghoshal",
-  },
-  {
-    id: "2tEV3uJ6RlBiZPWaS7aJmb",
-    title: "Pehli Baar",
-    artist: "Ajay Gogavale",
-  },
+{
+  id: "3pRF060IEOI5XSQAvONgSt",
+  title: "Chale Jaise Hawayein",
+  artist: "K.K., Vasundhara Das",
+},
+{
+  id: "00slEv0AYGnW85H84XsmGz", 
+  title: "Phir Milenge Chalte Chalte",
+  artist: "Sonu Nigam",
+},
+{
+  id: "6kOuIhlzgPlqlrWPudpSHL",
+  title: "Dhadak Dhadak",
+  artist: "Adnan Sami, Sunidhi Chauhan, Udit Narayan",
+},
+{
+  id: "3ayMReTwLoo6jAg7adDqyz",
+  title: "Har Funn Maula",
+  artist: "Tanishk Bagchi, Zara Khan, Amitabh Bhattacharya",
+},
+ {
+  id: "3UwGbGK1pYHt3kXIgc895b",
+  title: "Babli Badmaash",
+  artist: "Sunidhi Chauhan",
+},
+{
+  id: "1UzYybFkJcyvB2hkL129GA",
+  title: "Go Go Govinda",
+  artist: "Mika Singh, Amrita Kak",
+},
+{
+  id: "6FT6cSP37XOgdxDDe2olAD",
+  title: "Radhe Radhe",
+  artist: "Amit Trivedi",
+},
+{
+  id: "3ndW5P3tLaoLSn30qURXB5",
+  title: "Jee Le",
+  artist: "Mohit Chauhan",
+},
   {
     id: "743ja6r6aTqAL00ynZGG2q",
     title: "Ei Srabon",
@@ -82,6 +97,21 @@ const SHOR_TRACKS: Track[] = [
     id: "77FL46gBFDDbKHJpQwc1b3",
     title: "Jawl Phoring",
     artist: "Silajit · Anupam Roy",
+  },
+  {
+    id: "2QophXhN2Ls2URfoPmiviC",
+    title: "Kho Gaye",
+    artist: "Taaruk Raina · Mismatched Cast",
+  },  
+  {
+    id: "2tEV3uJ6RlBiZPWaS7aJmb",
+    title: "Pehli Baar",
+    artist: "Ajay Gogavale",
+  },
+  {
+    id: "4SrVkrpAyykhbVnATbfvPV",
+    title: "Dhadak – Title Track",
+    artist: "Ajay Gogavale · Shreya Ghoshal",
   },
   {
     id: "3jxNbVmugKWFFc3YAVl0sD",
@@ -713,6 +743,11 @@ const ROMANTIC_TRACKS: Track[] = [
     artist: "Various Artists",
   },
   {
+  id: "7gw6rSstVq9CmuQAaZhWm8",
+  title: "Asalaam-e-Ishqum",
+  artist: "Vishal Dadlani, Sunidhi Chauhan",
+},
+{
     id: "5pQODzb8j3xMQ1qvrQXJvo",
     title: "Laung Da Lashkara",
     artist: "Various Artists",
@@ -1146,7 +1181,11 @@ const SENSUAL_TRACKS: Track[] = [
     artist: "Mikey McCleary",
     id:  "7Hd216xGh0HkQFtklXMfUM",
   },
-  
+  {
+  title: "Race Saanson Ki",
+  artist: "Neeraj Shridhar, Monali Thakur",
+  id: "79F3Cm8rSKxKs5l3RxXHIW",
+},
   {
     title: "I Don't Know What To Do",
     artist: "Shreya Ghoshal, Zubeen Garg",
@@ -1221,7 +1260,9 @@ function MixedFontText({ text }: { text: string }) {
     <>
       {parts.map((part, index) =>
         /[\u0900-\u097F]/.test(part) ? (
-          <span key={index}>{part}</span>
+          <span key={index} className="text-[1em]">
+  {part}
+</span>
         ) : (
           <span key={index} className="font-poppins">
             {part}
