@@ -25,13 +25,13 @@ export default function HomePage() {
       <section className="relative z-10 flex min-h-dvh flex-col items-center px-6 pb-44 pt-[54vh] text-center sm:pt-[62vh]">
         <div className="w-full max-w-2xl">
 
-          <p className="font-poppins mb-6 -mt-6 text-[12.8px] font-semibold leading-relaxed text-white [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_4px_rgba(0,0,0,0.8)] max-sm:mt-0.5 max-sm:text-[14px] max-sm:text-white/75">
+          <p className="font-poppins mb-6 -mt-6 text-[13.5px] font-semibold leading-relaxed text-white/90 [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_4px_rgba(0,0,0,0.8)] max-sm:mt-0.5 max-sm:text-[14px] max-sm:text-white/85">
   Welcome to Aishee’s multiverse. Mood badlo, mahol badlo, playlist badlo —
   and most importantly, bas enjoy karo.
 </p>
 
 {/* PICK YOUR SHOR */}
-          <p className="font-poppins mb-5 mt-4 text-[12px] font-bold uppercase tracking-[0.18em] text-white sm:mt-10.5 max-sm:text-white/75">
+          <p className="font-poppins mb-5 mt-4 text-[12px] font-bold uppercase tracking-[0.18em] text-white/90 sm:mt-10.5 max-sm:text-white/85">
             Pick your shor
           </p>
 

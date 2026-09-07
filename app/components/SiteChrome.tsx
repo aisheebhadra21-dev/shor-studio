@@ -102,7 +102,7 @@ export function SiteChrome({
     className={
   room
     ? "h-auto w-[min(72vw,300px)] brightness-95 drop-shadow-[0_8px_22px_rgba(0,0,0,.5)] sm:w-[min(34vw,320px)]"
-    : "h-auto w-[min(33vw,310px)] max-sm:w-[min(139vw,430px)] brightness-90 max-sm:brightness-94 drop-shadow-[0_8px_22px_rgba(0,0,0,.5)]"
+    : "h-auto w-[min(33vw,310px)] max-sm:w-[min(175vw,495px)] brightness-90 max-sm:brightness-95 drop-shadow-[0_8px_22px_rgba(0,0,0,.5)]"
 }
   />
 </div>
