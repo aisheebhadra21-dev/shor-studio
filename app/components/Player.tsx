@@ -33,21 +33,16 @@ const SHOR_TRACKS: Track[] = [
     title: "Sahiba",
     artist: "Shashwat Sachdev · Romy · Pawni Pandey",
   },
-  {
-    id: "7G5wpuR61ABrT7R1snos7C",
-    title: "Kalank – Title Track",
-    artist: "Pritam · Arijit Singh",
-  },
-  {
-    id: "6hVq4MGBhPIniEmpGbJIWR",
-    title: "Hardum Humdum",
-    artist: "Pritam · Arijit Singh",
-  },
  {
   id: "6U28uT3sr2xZlTniZEWiHI",
   title: "Chaudhary",
   artist: "Mame Khan",
   },
+{
+  id: "57y7bVzgdGtqyEBAOPyIzA",
+  title: "Pagla Hawar Badol Dine – Remix",
+  artist: "Shreya Ghoshal · Nachiketa Chakraborty",
+},
 {
   id: "3pRF060IEOI5XSQAvONgSt",
   title: "Chale Jaise Hawayein",
@@ -99,6 +94,11 @@ const SHOR_TRACKS: Track[] = [
     artist: "Silajit · Anupam Roy",
   },
   {
+    id: "6hVq4MGBhPIniEmpGbJIWR",
+    title: "Hardum Humdum",
+    artist: "Pritam · Arijit Singh",
+  },
+  {
     id: "2QophXhN2Ls2URfoPmiviC",
     title: "Kho Gaye",
     artist: "Taaruk Raina · Mismatched Cast",
@@ -109,15 +109,15 @@ const SHOR_TRACKS: Track[] = [
     artist: "Ajay Gogavale",
   },
   {
+  id: "648GXyKI62FhbeBq0levWr",
+  title: "Dil Kya Kare",
+  artist: "Adnan Sami",
+ },
+  {
     id: "4SrVkrpAyykhbVnATbfvPV",
     title: "Dhadak – Title Track",
     artist: "Ajay Gogavale · Shreya Ghoshal",
-  },
-  {
-    id: "3jxNbVmugKWFFc3YAVl0sD",
-    title: "Aabaad Barbaad",
-    artist: "Pritam · Arijit Singh",
-  },
+  },  
   {
     id: "78KKYDENYsw6jYfuEZsqJl",
     title: "Saathiya",
@@ -127,6 +127,16 @@ const SHOR_TRACKS: Track[] = [
     id: "3Bq7CnWgfvplEzGSVXUvOe",
     title: "Ay Hairathe",
     artist: "A.R. Rahman · Hariharan · Alka Yagnik",
+  },
+  {
+    id: "7G5wpuR61ABrT7R1snos7C",
+    title: "Kalank – Title Track",
+    artist: "Pritam · Arijit Singh",
+  },
+  {
+    id: "3jxNbVmugKWFFc3YAVl0sD",
+    title: "Aabaad Barbaad",
+    artist: "Pritam · Arijit Singh",
   },
 ];
 
@@ -155,6 +165,11 @@ const NAACHO_TRACKS: Track[] = [
     title: "One Two Three Four",
     artist: "Vishal-Shekhar · Vishal Dadlani · Hamsika Iyer",
   },
+  {
+  id: "63MOJ9xs6xl3PfjzmzRDKv",
+  title: "Chaar Shanivaar",
+  artist: "Vishal Dadlani · Armaan Malik · Amaal Mallik · Shabbir Ahmed",
+},
   {
     id: "0FOniWOTfxWVJHncU9Dvst",
     title: "Dreamum Wakeupum",
