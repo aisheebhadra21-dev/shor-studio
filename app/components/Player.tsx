@@ -1223,12 +1223,130 @@ const SENSUAL_TRACKS: Track[] = [
   },
 ];
 
+
+/* =========================
+   DARIYA KE PAAR — MANNY'S CORNER
+   ========================= */
+
+const DARIYA_TRACKS: Track[] = [
+  {
+    id: "6w458kA8WOAIZr1ublxnK9",
+    title: "Safarnama",
+    artist: "Lucky Ali",
+  },
+  {
+    id: "6T8vyAyrbKSLjS6cOpjIeB",
+    title: "Ibn-E-Batuta",
+    artist: "Sukhwinder Singh · Mika Singh",
+  },
+  {
+    id: "3GrTI5vAoDD3VE24VTBJAc",
+    title: "Yun Hi Chala Chal",
+    artist: "Udit Narayan · Hariharan · Kailash Kher",
+  },
+ {
+    id: "4KppiO9PmMtsc8fLpV9RMJ",
+    title: "Jyotsna",
+    artist: "Swoopna Suman",
+  }, 
+  {
+    id: "3vqJY3pVELLIxqXXyI08yr",
+    title: "Roobaroo",
+    artist: "A.R. Rahman · Naresh Iyer",
+  },
+  {
+    id: "5vi2v2FeqGwxpMEsHxXzJd",
+    title: "Chalak Chalak",
+    artist: "Udit Narayan · Vinod Rathod · Shreya Ghoshal",
+  },
+  {
+    id: "0bLCiBR9AOtfp98dk7iCL5",
+    title: "Pani Da Rang - Male",
+    artist: "Ayushmann Khurrana · Rochak Kohli",
+  },
+  {
+    id: "1lrVcur8lGCYOPOO9rStLE",
+    title: "Piyu Bole",
+    artist: "Sonu Nigam · Shreya Ghoshal",
+  },
+  {
+    id: "0DXfJ2iKRDEG7rPgssWFea",
+    title: "Rangisari",
+    artist: "Kanishk Seth · Kavita Seth",
+  },
+  {
+    id: "2mVqfKbKGmxVXlVswhlI5T",
+    title: "Chaap Tilak",
+    artist: "Abida Parveen · Rahat Fateh Ali Khan",
+  },
+  {
+    id: "4w2fUXFWkhHTAS0eqIh2HC",
+    title: "Bezubaan",
+    artist: "Anupam Roy · Manoj Yadav",
+  },
+  {
+    id: "2K5E2U5SbVuWov1Dxe4Kei",
+    title: "Pherari Mon",
+    artist: "Shreya Ghoshal · Babul Supriyo",
+  },
+  {
+    id: "0KEIFUBScxUSEWia9Bf92L",
+    title: "Era Sukher Laagi",
+    artist: "Chorus",
+  },
+  {
+    id: "28syjZyasVJ4J4oxBDOF1b",
+    title: "Bumbro",
+    artist: "Shankar Mahadevan · Sunidhi Chauhan · Jaspinder Narula",
+  },
+  {
+    id: "59k0VPRjNwVg6P9HVHMW2N",
+    title: "Mileya Mileya",
+    artist: "Sachin-Jigar · Rekha Bhardwaj · Jigar Saraiya · Priya Andrews",
+  },
+  {
+    id: "2XYyriLyJSuGj4FN7QoNmM",
+    title: "Khudaya Khair",
+    artist: "Pritam · Soham Chakraborty · Akriti Kakar · Monali Thakur",
+  },
+  {
+    id: "5MJ82bMG6LPADqZ8S7V3f1",
+    title: "In Dino",
+    artist: "Pritam · Soham · Sayeed Quadri",
+  },
+  {
+    id: "57y7bVzgdGtqyEBAOPyIzA",
+    title: "Pagla Hawar Badol Dine - Remix",
+    artist: "Shreya Ghoshal · Nachiketa Chakraborty",
+  },
+  {
+    id: "6gUWYLF4r3wUmdOQ8eymh7",
+    title: "Dil Se Dil",
+    artist: "Vishal Chandrashekhar · Shashwat Singh · Mandar Cholkar",
+  },
+  {
+    id: "3g5JKHCtMyjEXJY2ZotLoA",
+    title: "Sahiba",
+    artist: "Shashwat Sachdev · Romy · Pawni Pandey",
+  },
+  {
+    id: "648GXyKI62FhbeBq0levWr",
+    title: "Dil Kya Kare",
+    artist: "Adnan Sami",
+  },
+  {
+    id: "0RJ7HhnQxJEOpGC5Htmez4",
+    title: "Iktara",
+    artist: "Amit Trivedi · Kavita Seth · Amitabh Bhattacharya",
+  },
+];
+
 /* =========================
    TYPES
    ========================= */
 
 type PlayerProps = {
-  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic" | "beauty" | "sensual";
+  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic" | "beauty" | "sensual" | "dariya";
 };
 
 /* =========================
@@ -1294,12 +1412,14 @@ function RadioHeader({
   tagline,
   playlistUrl,
   trackCount,
+  isDariya,
 }: {
   currentIndex: number;
   title: string;
   tagline: string;
   playlistUrl: string;
   trackCount: number;
+  isDariya: boolean;
 }) {
   return (
     <div className="mb-8 flex items-start justify-between gap-4 px-2">
@@ -1312,12 +1432,29 @@ function RadioHeader({
           </span>
         </div>
 
-        <p className="room-tagline mt-1 text-[10px] italic tracking-[0.08em] text-white/70 drop-shadow-[0_1px_5px_rgba(0,0,0,0.8)]">
-          <MixedFontText text={tagline} />
-        </p>
+        <p
+  className={`room-tagline mt-1 text-left italic tracking-[0.08em] text-white/70 drop-shadow-[0_1px_5px_rgba(0,0,0,0.8)] ${
+    isDariya
+      ? "mx-auto w-[130px] text-[9px] leading-[1.4] sm:w-auto sm:text-[10px]"
+      : "text-[10px]"
+  }`}
+>
+  {isDariya ? (
+    <>
+      a little piece of home,
+      <span className="block sm:inline"> wherever the sea takes you.</span>
+    </>
+  ) : (
+    <MixedFontText text={tagline} />
+  )}
+</p>
       </div>
 
-      <div className="flex flex-col items-end gap-2">
+      <div
+  className={`flex flex-col items-end gap-2 ${
+    isDariya ? "md:-translate-y-2" : ""
+  }`}
+>
         <a
           href={playlistUrl}
           target="_blank"
@@ -1327,9 +1464,13 @@ function RadioHeader({
           Open full playlist ↗
         </a>
 
-        <span className="font-poppins whitespace-nowrap text-[8px] uppercase tracking-[0.12em] text-white/40 sm:text-[9px] sm:tracking-[0.16em]">
-          {String(currentIndex + 1).padStart(2, "0")} / {trackCount}
-        </span>
+        <span
+  className={`font-poppins whitespace-nowrap text-[8px] uppercase tracking-[0.12em] text-white/40 sm:text-[9px] sm:tracking-[0.16em] ${
+    isDariya ? "md:relative md:-top-1.5" : ""
+  }`}
+>
+  {String(currentIndex + 1).padStart(2, "0")} / {trackCount}
+</span>
       </div>
     </div>
   );
@@ -1346,9 +1487,12 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
   const isRomantic = room === "romantic";
   const isBeauty = room === "beauty";
   const isSensual = room === "sensual";
-  const tracks = isSensual
-  ? SENSUAL_TRACKS
-  : isBeauty
+  const isDariya = room === "dariya";
+  const tracks = isDariya
+  ? DARIYA_TRACKS
+  : isSensual
+   ? SENSUAL_TRACKS
+   : isBeauty
     ? BEAUTY_TRACKS
     : isRomantic
       ? ROMANTIC_TRACKS
@@ -1360,9 +1504,11 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
             ? NAACHO_TRACKS
             : SHOR_TRACKS;
 
-  const title = isSensual
-  ? "कशिश - The Other Side"
-  : isBeauty
+  const title = isDariya
+  ? "दरिया के पार"
+  : isSensual
+   ? "कशिश - The Other Side"
+   : isBeauty
     ? "PEAK सुन्दरता"
     : isRomantic
       ? "देखो, Magar Pyaar Se"
@@ -1374,8 +1520,10 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
             ? "Naacho Saalo"
             : "Shor Radio";
 
-  const tagline = isSensual
-  ? "kuch der aur."
+  const tagline = isDariya
+  ? "a little piece of home, wherever the sea takes you."
+  : isSensual
+    ? "kuch der aur."
   : isBeauty
     ? "nazar sambhal ke."
     : isRomantic
@@ -1388,19 +1536,21 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
             ? "baithna mana hai."
             : "songs for beautiful chaos.";
 
-  const playlistUrl = isSensual
-  ? "https://open.spotify.com/playlist/1MRXSAWIgUzNiqgzxusQY1"
-  : isBeauty
-    ? "https://open.spotify.com/playlist/79DcDNQRqFjK05sMOr0tBn"
-    : isRomantic
-      ? "https://open.spotify.com/playlist/23Rjmk8wz2T4oYQohEJcwZ"
-      : isSoft
-        ? "https://open.spotify.com/playlist/6uBhToZM2gLMmE2rk6MVFS"
-        : isIconic
-          ? "https://open.spotify.com/playlist/4kmf3m2TEK7Enn974vQtkI"
-          : isNaacho
-            ? "https://open.spotify.com/playlist/74Fd1VZoB3BiiBDbiVqNmK"
-            : "https://open.spotify.com/playlist/2TXfUUl8lRIbF0S9qSoeOZ";
+const playlistUrl = isDariya
+  ? "https://open.spotify.com/playlist/2y3b9GQIm9cYK9vXi7mGkq"
+  : isSensual
+    ? "https://open.spotify.com/playlist/1MRXSAWIgUzNiqgzxusQY1"
+    : isBeauty
+      ? "https://open.spotify.com/playlist/79DcDNQRqFjK05sMOr0tBn"
+      : isRomantic
+        ? "https://open.spotify.com/playlist/23Rjmk8wz2T4oYQohEJcwZ"
+        : isSoft
+          ? "https://open.spotify.com/playlist/6uBhToZM2gLMmE2rk6MVFS"
+          : isIconic
+            ? "https://open.spotify.com/playlist/4kmf3m2TEK7Enn974vQtkI"
+            : isNaacho
+              ? "https://open.spotify.com/playlist/74Fd1VZoB3BiiBDbiVqNmK"
+              : "https://open.spotify.com/playlist/2TXfUUl8lRIbF0S9qSoeOZ";  
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -1418,22 +1568,29 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
 
     return (
   <section className="safe-bottom fixed left-1/2 z-30 w-[calc(100%-2rem)] max-w-3xl -translate-x-1/2 sm:w-[calc(100%-2rem)] sm:translate-y-0">
-    <div className="translate-y-6">
-      <RadioHeader
-        currentIndex={currentIndex}
-        title={title}
-        tagline={tagline}
-        playlistUrl={playlistUrl}
-        trackCount={tracks.length}
-      />
-    </div>
+    <div className={isDariya ? "translate-y-6 md:translate-y-10" : "translate-y-6"}>
+  <RadioHeader
+    currentIndex={currentIndex}
+    title={title}
+    tagline={tagline}
+    playlistUrl={playlistUrl}
+    trackCount={tracks.length}
+    isDariya={isDariya}
+  />
+</div>
 
-    <div className="glass mx-auto w-full overflow-hidden rounded-[24px] p-1.5 pb-1 sm:rounded-[28px] sm:p-2">
-      <div className="relative -mx-7 h-[142px] overflow-hidden rounded-[20px] border border-white/10 bg-transparent sm:mx-0 sm:h-[152px]">
+<div className={`glass mx-auto w-full overflow-hidden rounded-[24px] p-1.5 pb-1 sm:rounded-[28px] sm:p-2 ${
+  isDariya ? "md:p-1 md:pb-0" : ""
+}`}>
+      <div className={`relative -mx-7 h-[142px] overflow-hidden rounded-[20px] border border-white/10 bg-transparent sm:mx-0 sm:h-[152px] ${isDariya ? "md:h-[152px]" : ""}`}>
   <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-px bg-gradient-to-r from-transparent via-white/35 to-transparent" />
 
-  <div className="absolute inset-0 overflow-hidden">
-<div className="absolute left-1/2 top-0 w-full -translate-x-1/2 origin-top scale-[0.87] sm:static sm:w-full sm:translate-x-0 sm:scale-100">
+<div className="pointer-events-none absolute inset-0 overflow-hidden">  
+<div
+  className={`absolute left-1/2 top-0 w-full -translate-x-1/2 origin-top scale-[0.87] sm:static sm:w-full sm:translate-x-0 sm:scale-100 ${
+    isDariya ? "md:[transform:scaleY(0.95)] md:origin-top" : ""
+  }`}
+>
     <iframe
       key={currentTrack.id}
       title={`${title} — ${currentTrack.title}`}
@@ -1444,13 +1601,15 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
       loading="eager"
       referrerPolicy="strict-origin-when-cross-origin"
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      className="block h-[152px] w-full rounded-[20px] sm:rounded-[24px]"
+      className="pointer-events-auto block h-[152px] w-full rounded-[20px] sm:rounded-[24px]"
     />
   </div>
 </div>
 </div>
 
-      <div className="relative top-[1.4px] flex items-center justify-between px-2 sm:top-0 sm:px-2 sm:pt-2">
+<div className={`relative top-[1.4px] flex items-center justify-between px-2 sm:top-0 sm:px-2 sm:pt-2 ${
+  isDariya ? "md:-translate-y-1.5 md:pt-0" : ""
+}`}>    
         <button
   onClick={previousTrack}
   type="button"
@@ -1459,15 +1618,19 @@ export function SpotifyPlayer({ room = "radio" }: PlayerProps) {
   ← Previous
 </button>
 
-        <div className="min-w-0 w-[40%] px-1 text-center sm:w-auto sm:px-3">
-          <p className="font-poppins truncate text-[9px] font-medium uppercase tracking-[0.12em] text-white/70 sm:text-[11px]">
-            {currentTrack.title}
-          </p>
+        <div className={`min-w-0 w-[40%] px-1 text-center sm:w-auto sm:px-3 ${
+  isDariya ? "md:translate-y-1" : ""
+}`}>
+  <p className="font-poppins truncate text-[9px] font-medium uppercase tracking-[0.12em] text-white/70 sm:text-[11px]">
+    {currentTrack.title}
+  </p>
 
-          <p className="font-poppins mt-0.5 truncate text-[8px] text-white/35 sm:text-[10px]">
-            {currentTrack.artist}
-          </p>
-        </div>
+  <p className={`font-poppins mt-0.5 truncate text-[8px] text-white/35 sm:text-[10px] ${
+    isDariya ? "md:mt-0" : ""
+  }`}>
+    {currentTrack.artist}
+  </p>
+</div>
 
         <button
   onClick={nextTrack}

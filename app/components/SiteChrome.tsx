@@ -36,7 +36,7 @@ function KolkataClock() {
 export function SiteChrome({
   room,
 }: {
-  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic" | "beauty" | "sensual";
+  room?: "radio" | "naacho" | "iconic" | "soft" | "romantic" | "beauty" | "sensual" | "dariya";
 }) {
   return (
     <>
@@ -44,7 +44,7 @@ export function SiteChrome({
 {!room && <KolkataClock />}
 
 {/* Home button — room pages only */}
-{room && (
+{room && room !== "dariya" && (
   <Link
     href="/"
     className="safe-top safe-left fixed z-40 rounded-full border border-white/10 bg-black/20 px-3 py-2 text-[9px] uppercase tracking-[0.15em] text-white/75 backdrop-blur-md transition hover:bg-white/10 hover:text-white"
@@ -61,7 +61,11 @@ export function SiteChrome({
       {/* Spotify + About */}
       <div className="safe-top safe-right fixed z-40 flex items-center gap-1 translate-x-1 sm:gap-2 sm:translate-x-0">
         <a
-          href="https://open.spotify.com/playlist/2TXfUUl8lRIbF0S9qSoeOZ"
+          href={
+  room === "dariya"
+    ? "https://open.spotify.com/playlist/2y3b9GQIm9cYK9vXi7mGkq"
+    : "https://open.spotify.com/playlist/2TXfUUl8lRIbF0S9qSoeOZ"
+}
           target="_blank"
           rel="noreferrer"
           className="rounded-full border border-white/10 bg-black/20 px-2.5 py-2 text-[9px] uppercase tracking-[0.15em] text-white/75 backdrop-blur-md transition hover:bg-white/15 hover:text-white"

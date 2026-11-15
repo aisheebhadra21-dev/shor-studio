@@ -158,6 +158,21 @@ button {
   }
 }
 
+.dariya-bg {
+  background-image: url("/bg/dariya-wide.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .dariya-bg {
+    background-image: url("/bg/dariya-tall.png");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
